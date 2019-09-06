@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex paper"] 1567747992 "paper.aux" "paper.bbl" "paper" 1567747994
+["bibtex paper"] 1567751311 "paper.aux" "paper.bbl" "paper" 1567751334
   "./aaai.bst" 1500405790 21725 6d8748be1c9864381e507b2fcffde491 ""
-  "paper.aux" 1567747993 10826 fcc1601fecfcb5b0576cd162a3c4b7e5 "pdflatex"
+  "paper.aux" 1567751334 10863 d8345f2fa633cf7325e7abc6cf0b0821 "pdflatex"
   "references.bib" 1564477801 20786 d5407ae34c3c5b79a0e47a8aae6f0f46 ""
   (generated)
   "paper.bbl"
   "paper.blg"
-["pdflatex"] 1567747992 "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.tex" "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.pdf" "paper" 1567747994
-  "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.aux" 1567747993 10826 fcc1601fecfcb5b0576cd162a3c4b7e5 ""
-  "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.tex" 1567747988 43569 d39942a985867c9644378f30bd3101ee ""
+["pdflatex"] 1567751333 "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.tex" "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.pdf" "paper" 1567751334
+  "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.aux" 1567751334 10863 d8345f2fa633cf7325e7abc6cf0b0821 ""
+  "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.tex" 1567751333 41549 2221c840d670b63a49cb202ba4901667 ""
   "/home/warproxxx/texmf/tex/latex/enumitem/enumitem.sty" 1317339792 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -60,7 +60,6 @@
   "/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty" 1567199415 68791 8ece4052aa244e5a2c26ead5f5ea1da3 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty" 1538606650 68510 943558eecf41da4e76fc614fd7f5deff ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty" 1567035661 5249 f02722d5590c548da497ffa0afde739d ""
-  "/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def" 1515537368 17334 520b9b85ad8a2a48eda3f643e27a5179 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty" 1523134385 15272 5a97061616e0c8b2aa79c6615ff769f4 ""
@@ -97,12 +96,12 @@
   "images/top_1per_bots.png" 1564209518 11601 18f7866895a07e23e30a8d3eb0a208f7 ""
   "images/top_1per_humans.png" 1564209540 12583 218124487051700593f38f739502d735 ""
   "images/top_influences.png" 1564452817 110380 4f013682d75d7d189a49c35cf1c597b7 ""
-  "paper.aux" 1567747993 10826 fcc1601fecfcb5b0576cd162a3c4b7e5 "pdflatex"
-  "paper.bbl" 1567747992 19318 293ce3b18b824553ffd14bd5b8862162 "bibtex paper"
-  "paper.tex" 1567747988 43569 d39942a985867c9644378f30bd3101ee ""
+  "paper.aux" 1567751334 10863 d8345f2fa633cf7325e7abc6cf0b0821 "pdflatex"
+  "paper.bbl" 1567751311 19318 293ce3b18b824553ffd14bd5b8862162 "bibtex paper"
+  "paper.tex" 1567751333 41549 2221c840d670b63a49cb202ba4901667 ""
   (generated)
   "paper.log"
-  "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.log"
   "paper.aux"
+  "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.log"
   "paper.pdf"
-  "/home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.pdf"
+  "/home/warproxxx/Desktop/Projects/USElection/writeup/paper.pdf"

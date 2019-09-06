@@ -15,7 +15,6 @@
 \usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{subcaption}
-\usepackage{float} %float cannot be used
 
 \pdfinfo{
 /Title (Measuring the Influence of Twitter Bots during the 2018 US Midterm Election)
@@ -162,130 +161,30 @@ to find out how many users the tweet possibly influenced to retweet. It was test
 \section{Methods}
 \label{sec:method}
 \subsection{Data Collection}
-Twenty-nine manually identified keywords, names of 53 House candidates, and 27 Senate candidates were used to collect live data from Twitter. The manually defined keywords were:
+Twenty-nine manually identified keywords, and names of all 53 House candidates, and 27 Senate candidates were used to collect live data from Twitter. The manually defined keywords were:
 
-\begin{itemize}
-    \item 2018Midterms
-    \item 2018MidtermElections
-    \item Election2018
-    \item ElectionDay
-    \item MAGA2018
-    \item MAGA
-    \item Trump2020
-    \item AmericaFirst
-    \item TheResistance
-    \item resist
-    \item VoteThemOut
-    \item 2018Senate
-    \item VoteRed
-    \item Voteblue
-    \item WalkAwayFromDemocrats2018
-    \item WalkAwayFromRepublicans2018
-    \item VOTE
-    \item GAEarlyVoting
-    \item EarlyVoting
-    \item plus1
-    \item IVoted
-    \item WinBlue
-    \item WinRed
-    \item BlueWave
-    \item RedWave
-    \item republican2018
-    \item democrat2018
-    \item Republican
-    \item Democrat
-\end{itemize}
-
-House candidates were:
-
-\begin{itemize}
-    \item don young
-    \item alyse s galvin
-    \item katie hill
-    \item steve knight
-    \item katie porter
-    \item mimi walters
-    \item harley rouda
-    \item dana rohrabacher
-    \item michael waltz
-    \item nancy soderberg
-    \item mario diaz balart
-    \item mary barzee flores
-    \item karen c handel
-    \item lucy mcbath
-    \item cindy axne
-    \item david young
-    \item mike bost
-    \item brendan kelly
-    \item rodney davis
-    \item betsy dirksen londrigan
-    \item randy hultgren
-    \item lauren underwood
-    \item jared golden
-    \item bruce poliquin
-    \item william lacy clay jr
-    \item greg gianforte
-    \item kathleen williams
-    \item george holding
-    \item linda coleman
-    \item ted budd
-    \item kathy manning
-    \item don bacon
-    \item kara eastman
-    \item tom malinowski
-    \item leonard lance
-    \item dina titus
-    \item joyce bentley
-    \item susie lee
-    \item danny tarkanian
-    \item pete king
-    \item liuba grechen shirley
-    \item chris collins
-    \item nate mcmurray
-    \item troy balderson
-    \item danny o connor
-    \item scott perry
-    \item george scott
-    \item pete sessions
-    \item colin allred
-    \item scott taylor
-    \item elaine luria
-    \item jaime herrera beutler
-    \item carolyn long
-\end{itemize}
-
-Senate candidates were:
-
-\begin{itemize}
-    \item kyrsten sinema
-    \item martha mcsally
-    \item bill nelson
-    \item rick scott
-    \item joe donnelly
-    \item mike braun
-    \item tina smith
-    \item karin housley
-    \item claire mccaskill
-    \item josh hawley
-    \item cindy hyde smith
-    \item mike espy
-    \item chris mcdaniel
-    \item jon tester
-    \item matt rosendale
-    \item kevin cramer
-    \item heidi heitkamp
-    \item robert menendez
-    \item bob hugin
-    \item dean heller
-    \item jacky rosen
-    \item marsha blackburn
-    \item phil bredesen
-    \item ted cruz
-    \item beto o rourke
-    \item joe manchin iii
-    \item patrick morrisey
-\end{itemize}
-
+\begin{table}[]
+    \centering
+    \begin{tabular}{ll}
+    • 2018Midterms & • resist \\
+    • 2018MidtermElections & • VOTE \\
+    • Election2018 & • GAEarlyVoting \\
+    • ElectionDay & • EarlyVoting \\
+    • MAGA2018 & • plus1 \\
+    • MAGA & • IVoted \\
+    • Trump2020 & • WinBlue \\
+    • AmericaFirst & • WinRed \\
+    • TheResistance & • BlueWave \\
+    • WalkAwayFromRepublicans2018 & • RedWave \\
+    • VoteThemOut & • republican2018 \\
+    • 2018Senate & • democrat2018 \\
+    • VoteRed & • Republican \\
+    • Voteblue & • Democrat \\
+    • WalkAwayFromDemocrats2018 & 
+    \end{tabular}
+    \caption{Manual Keywords}
+    \label{tab:manual-keywords}
+    \end{table}
 
 Twitter provides Streaming API, Search API, and a premium Firehose API to provide access to tweets. Streaming API provides limited access to live data (termed 1\% API in the early days) while Firehose API
 provides complete data. However, due to the associated costs, Firehose API was not an option in this study. \cite{morstatter2013sample} compares the Streaming API with Firehose API.
@@ -443,7 +342,7 @@ the differences.
     \label{fig:bots_dominant}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -469,13 +368,13 @@ the differences.
 
 From Table \ref{tab:bot-dominant-words} and Figure \ref{fig:bots_dominant}, we can see that bots dominate humans in the use of conservative words. 
 
-\begin{figure}[H]
+\begin{figure}
     \includegraphics[width=\linewidth]{images/mostly_humans.png}
     \caption{Word used more more often by humans}
     \label{fig:humans_dominant}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -501,7 +400,7 @@ From Table \ref{tab:bot-dominant-words} and Figure \ref{fig:bots_dominant}, we c
 
 Table \ref{tab:humans-dominant-words} and Figure \ref{fig:humans_dominant} shows that humans dominate bots in the use of slang. \par
 
-\begin{figure}[H]
+\begin{figure}
     \includegraphics[width=\linewidth]{images/emotions.png}
     \caption{Histogram of Tweet Sentiment}
     \label{fig:setiment_histogram}
@@ -520,7 +419,7 @@ The 329606 cascades in the dataset was analyzed to calculate human-bot interacti
     \item Tweets made by humans were retweeted by humans 81.64\% or 3.4M times. 
 \end{itemize}
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \begin{subfigure}[b]{1\linewidth}
       \includegraphics[width=\linewidth]{images/bots_furtherretweeted.png}
@@ -540,7 +439,7 @@ The 329606 cascades in the dataset was analyzed to calculate human-bot interacti
   In Figure \ref{fig:further_retweet_bots} we can see that percentage amount of bots was high for smaller bot started cascades. It becomes smaller as the size increases. 
   Opposite was observed for humans in Figure \ref{fig:further_retweet_humans}. It might possibly mean that humans and mostly followed by humans and bots by bots. Both join once a tweet becomes famous.
 
-\begin{figure}[H]
+\begin{figure}
     \includegraphics[width=\linewidth]{images/bot_humans_retweet_percentages.png}
     \caption{At Different Percentage Intervals}
     \label{fig:humans_bots_percentage}
@@ -567,7 +466,7 @@ of the tweets was the POTUS, @realDonaldTrump.\par
 
 Then, we find the difference in influence made by the top 1\% of all users, top 1\% of the bots, and top 1\% of the Humans. 
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \captionsetup{justification=centering}
 
@@ -608,7 +507,7 @@ Before performing URL influence calculation, short URLs were resolved, and twitt
 mostly in t.co domain. 652,054 unique URLs belonging to 157,192 unique domains were shared in our dataset by 652,054 unique users 1.9 Million times. Ten most popular domains in our dataset with their frequency are
 in Table \ref{tab:Common_urls}
 
-\begin{table}[H]
+\begin{table}
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -630,7 +529,7 @@ in Table \ref{tab:Common_urls}
 \end{table}
 
 The top 10 domains for humans and bots, apart from t.co were:
-\begin{table}[H]
+\begin{table}
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -653,7 +552,7 @@ The top 10 domains for humans and bots, apart from t.co were:
 Wordcloud was then created to find human dominant and bot dominant domains. URL which appeared at least 0.03\% of times which is 493 times for humans 
 and 77 times for bots were used as before.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \captionsetup{justification=centering}
 
@@ -672,7 +571,7 @@ Various cascades could share the same URL. On average, a URL was shared in 1.97 
 Next, we compare the average influence bots had on the URL cascades with the number of bots. On first look, the influence looked similar to the percentage. Their correlation was 0.93 
 (pval=0) and the total percentage of bot influence was 1.09 times the total bots percentage. However, on further evaluation average was found to deceptive.
 
-\begin{figure}[H]
+\begin{figure}
     \includegraphics[width=\linewidth]{images/bots_influence_vs_size.png}
     \caption{Percentage of Bots and Percentage of their influence}
     \label{fig:bots_influence_vs_size}
@@ -681,7 +580,7 @@ Next, we compare the average influence bots had on the URL cascades with the num
 The average appears similar because the influence percentage is higher for unsuccessful URLs (i.e., when they are shared less than ten times). But we can see in Figure \ref{fig:bots_influence_vs_size}
 that influence bots had was much more than their amount in bigger cascades.
 
-\begin{table}[H]
+\begin{table}
     \centering
     \begin{tabular}{|l|l|l|l|l|}
     \hline
