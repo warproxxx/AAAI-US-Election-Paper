@@ -42,14 +42,12 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /home/warproxxx/texmf/tex/latex/enumitem/enumitem.sty
 INPUT /home/warproxxx/texmf/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT /home/warproxxx/Desktop/Projects/USElection/writeup/new_writeup/paper.aux

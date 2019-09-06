@@ -11,25 +11,18 @@
 \frenchspacing
 \setlength{\pdfpagewidth}{8.5in}
 \setlength{\pdfpageheight}{11in}
-
 % custom packages%
 \usepackage{amsmath}
 \usepackage{enumitem}
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{multirow}
 \usepackage{subcaption}
-\usepackage{float}
+\usepackage{float} %float cannot be used
 
 \pdfinfo{
 /Title (Measuring the Influence of Twitter Bots during the 2018 US Midterm Election)
 /Author ()
 }
 
-\setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
-
-
-
+\setcounter{secnumdepth}{2} %May be changed to 1 or 2 if section numbers are desired.
 
 \title{Measuring the Influence of Twitter Bots during the 2018 US Midterm Election}
 
@@ -727,8 +720,6 @@ Various directions are possible to go in future:
     a mechanism for finding Twitter posts using Twitter's snowflake algorithm looks promising \cite{bettermetrics2019}
     \item Reddit can be analyzed along with Twitter to create a better spread graph. A bot detection system can be made for Reddit too. Combining multiple sources, a complicated long term study can be conducted to measure the success/failure of bots in changing people's opinion.
 \end{itemize}
-
-\newpage
 
 \bibliographystyle{aaai}
 \bibliography{references}
