@@ -1,0 +1,494 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Abokhodair, Yoo, and
+  McDonald}{2015}]{abokhodair2015dissecting}
+Abokhodair, N.; Yoo, D.; and McDonald, D.~W.
+\newblock 2015.
+\newblock Dissecting a social botnet: Growth, content and influence in twitter.
+\newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
+  Cooperative Work \& Social Computing},  839--851.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Adstage}{2019}]{adstage_2018_report}
+Adstage.
+\newblock 2019.
+\newblock Q4 2018 paid media benchmark report.
+
+\bibitem[\protect\citeauthoryear{Asur and Huberman}{2010}]{asur2010predicting}
+Asur, S., and Huberman, B.~A.
+\newblock 2010.
+\newblock Predicting the future with social media.
+\newblock In {\em Proceedings of the 2010 IEEE/WIC/ACM International Conference
+  on Web Intelligence and Intelligent Agent Technology-Volume 01},  492--499.
+\newblock IEEE Computer Society.
+
+\bibitem[\protect\citeauthoryear{Baumgartner}{2019}]{bettermetrics2019}
+Baumgartner, J.
+\newblock 2019.
+\newblock Reconstructing twitter's firehose.
+
+\bibitem[\protect\citeauthoryear{Bessi and Ferrara}{2016}]{bessi2016social}
+Bessi, A., and Ferrara, E.
+\newblock 2016.
+\newblock Social bots distort the 2016 us presidential election online
+  discussion.
+\newblock {\em First Monday} 21(11-7).
+
+\bibitem[\protect\citeauthoryear{Botometer}{2019}]{botometer_tweet}
+Botometer.
+\newblock 2019.
+
+\bibitem[\protect\citeauthoryear{Bovet and Makse}{2019}]{bovet2019influence}
+Bovet, A., and Makse, H.~A.
+\newblock 2019.
+\newblock Influence of fake news in twitter during the 2016 us presidential
+  election.
+\newblock {\em Nature communications} 10(1):7.
+
+\bibitem[\protect\citeauthoryear{Bradshaw and
+  Howard}{2017}]{bradshaw2017troops}
+Bradshaw, S., and Howard, P.
+\newblock 2017.
+\newblock Troops, trolls and troublemakers: A global inventory of organized
+  social media manipulation.
+
+\bibitem[\protect\citeauthoryear{Center}{2018}]{pew_research_news}
+Center, P.~R.
+\newblock 2018.
+\newblock News use across social media platforms 2018.
+
+\bibitem[\protect\citeauthoryear{Cho \bgroup et al\mbox.\egroup
+  }{2013}]{cho2013latent}
+Cho, Y.-S.; Galstyan, A.; Brantingham, P.~J.; and Tita, G.
+\newblock 2013.
+\newblock Latent self-exciting point process model for spatial-temporal
+  networks.
+\newblock {\em arXiv preprint arXiv:1302.2671}.
+
+\bibitem[\protect\citeauthoryear{Chu, Widjaja, and
+  Wang}{2012}]{chu2012detecting}
+Chu, Z.; Widjaja, I.; and Wang, H.
+\newblock 2012.
+\newblock Detecting social spam campaigns on twitter.
+\newblock In {\em International Conference on Applied Cryptography and Network
+  Security},  455--472.
+\newblock Springer.
+
+\bibitem[\protect\citeauthoryear{Cresci \bgroup et al\mbox.\egroup
+  }{2015}]{cresci2015fame}
+Cresci, S.; Di~Pietro, R.; Petrocchi, M.; Spognardi, A.; and Tesconi, M.
+\newblock 2015.
+\newblock Fame for sale: Efficient detection of fake twitter followers.
+\newblock {\em Decision Support Systems} 80:56--71.
+
+\bibitem[\protect\citeauthoryear{Cresci \bgroup et al\mbox.\egroup
+  }{2017}]{cresci2017paradigm}
+Cresci, S.; Di~Pietro, R.; Petrocchi, M.; Spognardi, A.; and Tesconi, M.
+\newblock 2017.
+\newblock The paradigm-shift of social spambots: Evidence, theories, and tools
+  for the arms race.
+\newblock In {\em Proceedings of the 26th international conference on World
+  Wide Web companion},  963--972.
+\newblock International World Wide Web Conferences Steering Committee.
+
+\bibitem[\protect\citeauthoryear{Davis \bgroup et al\mbox.\egroup
+  }{2016}]{davis2016botornot}
+Davis, C.~A.; Varol, O.; Ferrara, E.; Flammini, A.; and Menczer, F.
+\newblock 2016.
+\newblock Botornot: A system to evaluate social bots.
+\newblock In {\em Proceedings of the 25th International Conference Companion on
+  World Wide Web},  273--274.
+\newblock International World Wide Web Conferences Steering Committee.
+
+\bibitem[\protect\citeauthoryear{Deb \bgroup et al\mbox.\egroup
+  }{2019}]{deb2019perils}
+Deb, A.; Luceri, L.; Badaway, A.; and Ferrara, E.
+\newblock 2019.
+\newblock Perils and challenges of social media and election manipulation
+  analysis: The 2018 us midterms.
+\newblock In {\em Companion Proceedings of The 2019 World Wide Web Conference},
+   237--247.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Dredze}{2012}]{dredze2012social}
+Dredze, M.
+\newblock 2012.
+\newblock How social media will change public health.
+\newblock {\em IEEE Intelligent Systems} 27(4):81--84.
+
+\bibitem[\protect\citeauthoryear{Du \bgroup et al\mbox.\egroup
+  }{2013}]{du2013scalable}
+Du, N.; Song, L.; Rodriguez, M.~G.; and Zha, H.
+\newblock 2013.
+\newblock Scalable influence estimation in continuous-time diffusion networks.
+\newblock In {\em Advances in neural information processing systems},
+  3147--3155.
+
+\bibitem[\protect\citeauthoryear{Ellison, Steinfield, and
+  Lampe}{2007}]{ellison2007benefits}
+Ellison, N.~B.; Steinfield, C.; and Lampe, C.
+\newblock 2007.
+\newblock The benefits of facebook “friends:” social capital and college
+  students’ use of online social network sites.
+\newblock {\em Journal of computer-mediated communication} 12(4):1143--1168.
+
+\bibitem[\protect\citeauthoryear{Ferrara \bgroup et al\mbox.\egroup
+  }{2016}]{ferrara2016rise}
+Ferrara, E.; Varol, O.; Davis, C.; Menczer, F.; and Flammini, A.
+\newblock 2016.
+\newblock The rise of social bots.
+\newblock {\em Communications of the ACM} 59(7):96--104.
+
+\bibitem[\protect\citeauthoryear{Ferrara}{2015}]{ferrara2015manipulation}
+Ferrara, E.
+\newblock 2015.
+\newblock Manipulation and abuse on social media by emilio ferrara with
+  ching-man au yeung as coordinator.
+\newblock {\em ACM SIGWEB Newsletter} (Spring):4.
+
+\bibitem[\protect\citeauthoryear{Ferrara}{2017}]{ferrara2017disinformation}
+Ferrara, E.
+\newblock 2017.
+\newblock Disinformation and social bot operations in the run up to the 2017
+  french presidential election.
+\newblock {\em First Monday} 22(8).
+
+\bibitem[\protect\citeauthoryear{Ferrara}{2018}]{ferrara2018measuring}
+Ferrara, E.
+\newblock 2018.
+\newblock Measuring social spam and the effect of bots on information diffusion
+  in social media.
+\newblock In {\em Complex Spreading Phenomena in Social Systems}. Springer.
+\newblock  229--255.
+
+\bibitem[\protect\citeauthoryear{Forelle \bgroup et al\mbox.\egroup
+  }{2015}]{forelle2015political}
+Forelle, M.; Howard, P.; Monroy-Hern{\'a}ndez, A.; and Savage, S.
+\newblock 2015.
+\newblock Political bots and the manipulation of public opinion in venezuela.
+\newblock {\em arXiv preprint arXiv:1507.07109}.
+
+\bibitem[\protect\citeauthoryear{Gao \bgroup et al\mbox.\egroup
+  }{2010}]{gao2010detecting}
+Gao, H.; Hu, J.; Wilson, C.; Li, Z.; Chen, Y.; and Zhao, B.~Y.
+\newblock 2010.
+\newblock Detecting and characterizing social spam campaigns.
+\newblock In {\em Proceedings of the 10th ACM SIGCOMM conference on Internet
+  measurement},  35--47.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{GlobalWebIndex}{2019}]{2019_social_flagship_report}
+GlobalWebIndex.
+\newblock 2019.
+\newblock 2019 q1 social flagship report.
+
+\bibitem[\protect\citeauthoryear{Gonz{\'a}lez-Bail{\'o}n, Borge-Holthoefer, and
+  Moreno}{2013}]{gonzalez2013broadcasters}
+Gonz{\'a}lez-Bail{\'o}n, S.; Borge-Holthoefer, J.; and Moreno, Y.
+\newblock 2013.
+\newblock Broadcasters and hidden influentials in online protest diffusion.
+\newblock {\em American Behavioral Scientist} 57(7):943--965.
+
+\bibitem[\protect\citeauthoryear{Grimme, Assenmacher, and
+  Adam}{2018}]{grimme2018changing}
+Grimme, C.; Assenmacher, D.; and Adam, L.
+\newblock 2018.
+\newblock Changing perspectives: Is it sufficient to detect social bots?
+\newblock In {\em International Conference on Social Computing and Social
+  Media},  445--461.
+\newblock Springer.
+
+\bibitem[\protect\citeauthoryear{Grinberg \bgroup et al\mbox.\egroup
+  }{2019}]{grinberg2019fake}
+Grinberg, N.; Joseph, K.; Friedland, L.; Swire-Thompson, B.; and Lazer, D.
+\newblock 2019.
+\newblock Fake news on twitter during the 2016 us presidential election.
+\newblock {\em Science} 363(6425):374--378.
+
+\bibitem[\protect\citeauthoryear{Gruzd and Roy}{2014}]{gruzd2014investigating}
+Gruzd, A., and Roy, J.
+\newblock 2014.
+\newblock Investigating political polarization on twitter: A canadian
+  perspective.
+\newblock {\em Policy \& Internet} 6(1):28--45.
+
+\bibitem[\protect\citeauthoryear{Harkins and Petty}{1981}]{harkins1981multiple}
+Harkins, S.~G., and Petty, R.~E.
+\newblock 1981.
+\newblock The multiple source effect in persuasion: The effects of distraction.
+\newblock {\em Personality and Social Psychology Bulletin} 7(4):627--635.
+
+\bibitem[\protect\citeauthoryear{Haustein \bgroup et al\mbox.\egroup
+  }{2016}]{haustein2016tweets}
+Haustein, S.; Bowman, T.~D.; Holmberg, K.; Tsou, A.; Sugimoto, C.~R.; and
+  Larivi{\`e}re, V.
+\newblock 2016.
+\newblock Tweets as impact indicators: Examining the implications of automated
+  “bot” accounts on t witter.
+\newblock {\em Journal of the Association for Information Science and
+  Technology} 67(1):232--238.
+
+\bibitem[\protect\citeauthoryear{Househ, Borycki, and
+  Kushniruk}{2014}]{househ2014empowering}
+Househ, M.; Borycki, E.; and Kushniruk, A.
+\newblock 2014.
+\newblock Empowering patients through social media: the benefits and
+  challenges.
+\newblock {\em Health informatics journal} 20(1):50--58.
+
+\bibitem[\protect\citeauthoryear{Howard, Kollanyi, and
+  Woolley}{2016}]{howard2016bots}
+Howard, P.~N.; Kollanyi, B.; and Woolley, S.
+\newblock 2016.
+\newblock Bots and automation over twitter during the us election.
+\newblock {\em Computational Propaganda Project: Working Paper Series}.
+
+\bibitem[\protect\citeauthoryear{Howard, Woolley, and
+  Calo}{2018}]{howard2018algorithms}
+Howard, P.~N.; Woolley, S.; and Calo, R.
+\newblock 2018.
+\newblock Algorithms, bots, and political communication in the us 2016
+  election: The challenge of automated political communication for election law
+  and administration.
+\newblock {\em Journal of information technology \& politics} 15(2):81--93.
+
+\bibitem[\protect\citeauthoryear{Hutto and Gilbert}{2014}]{hutto2014vader}
+Hutto, C.~J., and Gilbert, E.
+\newblock 2014.
+\newblock Vader: A parsimonious rule-based model for sentiment analysis of
+  social media text.
+\newblock In {\em Eighth international AAAI conference on weblogs and social
+  media}.
+
+\bibitem[\protect\citeauthoryear{Kudugunta and
+  Ferrara}{2018}]{kudugunta2018deep}
+Kudugunta, S., and Ferrara, E.
+\newblock 2018.
+\newblock Deep neural networks for bot detection.
+\newblock {\em Information Sciences} 467:312--322.
+
+\bibitem[\protect\citeauthoryear{Lazer \bgroup et al\mbox.\egroup
+  }{2018}]{lazer2018science}
+Lazer, D.~M.; Baum, M.~A.; Benkler, Y.; Berinsky, A.~J.; Greenhill, K.~M.;
+  Menczer, F.; Metzger, M.~J.; Nyhan, B.; Pennycook, G.; Rothschild, D.; et~al.
+\newblock 2018.
+\newblock The science of fake news.
+\newblock {\em Science} 359(6380):1094--1096.
+
+\bibitem[\protect\citeauthoryear{Linderman and
+  Adams}{2014}]{linderman2014discovering}
+Linderman, S., and Adams, R.
+\newblock 2014.
+\newblock Discovering latent network structure in point process data.
+\newblock In {\em International Conference on Machine Learning},  1413--1421.
+
+\bibitem[\protect\citeauthoryear{Liu \bgroup et al\mbox.\egroup
+  }{2016}]{liu2016predicting}
+Liu, T.; Ding, X.; Chen, Y.; Chen, H.; and Guo, M.
+\newblock 2016.
+\newblock Predicting movie box-office revenues by exploiting large-scale social
+  media content.
+\newblock {\em Multimedia Tools and Applications} 75(3):1509--1528.
+
+\bibitem[\protect\citeauthoryear{Luceri \bgroup et al\mbox.\egroup
+  }{2019}]{luceri2019red}
+Luceri, L.; Deb, A.; Badawy, A.; and Ferrara, E.
+\newblock 2019.
+\newblock Red bots do it better: Comparative analysis of social bot partisan
+  behavior.
+\newblock In {\em Companion Proceedings of The 2019 World Wide Web Conference},
+   1007--1012.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Marwick and Lewis}{2017}]{marwick2017media}
+Marwick, A., and Lewis, R.
+\newblock 2017.
+\newblock Media manipulation and disinformation online.
+\newblock {\em New York: Data \& Society Research Institute}.
+
+\bibitem[\protect\citeauthoryear{Mitter, Wagner, and
+  Strohmaier}{2014}]{mitter2014categorization}
+Mitter, S.; Wagner, C.; and Strohmaier, M.
+\newblock 2014.
+\newblock A categorization scheme for socialbot attacks in online social
+  networks.
+\newblock {\em arXiv preprint arXiv:1402.6288}.
+
+\bibitem[\protect\citeauthoryear{Moorhead \bgroup et al\mbox.\egroup
+  }{2013}]{moorhead2013new}
+Moorhead, S.~A.; Hazlett, D.~E.; Harrison, L.; Carroll, J.~K.; Irwin, A.; and
+  Hoving, C.
+\newblock 2013.
+\newblock A new dimension of health care: systematic review of the uses,
+  benefits, and limitations of social media for health communication.
+\newblock {\em Journal of medical Internet research} 15(4):e85.
+
+\bibitem[\protect\citeauthoryear{Morstatter \bgroup et al\mbox.\egroup
+  }{2013}]{morstatter2013sample}
+Morstatter, F.; Pfeffer, J.; Liu, H.; and Carley, K.~M.
+\newblock 2013.
+\newblock Is the sample good enough? comparing data from twitter's streaming
+  api with twitter's firehose.
+\newblock In {\em Seventh international AAAI conference on weblogs and social
+  media}.
+
+\bibitem[\protect\citeauthoryear{Morstatter \bgroup et al\mbox.\egroup
+  }{2018}]{morstatter2018alt}
+Morstatter, F.; Shao, Y.; Galstyan, A.; and Karunasekera, S.
+\newblock 2018.
+\newblock From alt-right to alt-rechts: Twitter analysis of the 2017 german
+  federal election.
+\newblock In {\em Companion Proceedings of the The Web Conference 2018},
+  621--628.
+\newblock International World Wide Web Conferences Steering Committee.
+
+\bibitem[\protect\citeauthoryear{Mueller}{2019}]{mueller_investigation}
+Mueller, R.~S.
+\newblock 2019.
+\newblock Report on the investigation into russian interference in the 2016
+  presidential election.
+
+\bibitem[\protect\citeauthoryear{Munger}{2017}]{munger2017don}
+Munger, K.
+\newblock 2017.
+\newblock Don’t@ me: Experimentally reducing partisan incivility on twitter.
+\newblock {\em Unpublished manuscript}.
+
+\bibitem[\protect\citeauthoryear{Nguyen, Shirai, and
+  Velcin}{2015}]{nguyen2015sentiment}
+Nguyen, T.~H.; Shirai, K.; and Velcin, J.
+\newblock 2015.
+\newblock Sentiment analysis on social media for stock movement prediction.
+\newblock {\em Expert Systems with Applications} 42(24):9603--9611.
+
+\bibitem[\protect\citeauthoryear{Park}{2018}]{twitter_remember}
+Park, M.
+\newblock 2018.
+\newblock Expanding in-stream video ads to more advertisers globally.
+
+\bibitem[\protect\citeauthoryear{Paul and Matthews}{2016}]{paul2016russian}
+Paul, C., and Matthews, M.
+\newblock 2016.
+\newblock The russian “firehose of falsehood” propaganda model.
+\newblock {\em Rand Corporation}  2--7.
+
+\bibitem[\protect\citeauthoryear{Petty \bgroup et al\mbox.\egroup
+  }{1994}]{petty1994think}
+Petty, R.; Cacioppo, J.; Strathman, A.; and Priester, J.
+\newblock 1994.
+\newblock To think or not to think? exploring two routes to persuasion in:
+  Shavitt s, brock tc, editors. persuasion: Psychological insights and
+  perspectives.
+
+\bibitem[\protect\citeauthoryear{Pornpitakpan}{2004}]{pornpitakpan2004persuasiveness}
+Pornpitakpan, C.
+\newblock 2004.
+\newblock The persuasiveness of source credibility: A critical review of five
+  decades' evidence.
+\newblock {\em Journal of applied social psychology} 34(2):243--281.
+
+\bibitem[\protect\citeauthoryear{Rizoiu \bgroup et al\mbox.\egroup
+  }{2018}]{rizoiu2018debatenight}
+Rizoiu, M.-A.; Graham, T.; Zhang, R.; Zhang, Y.; Ackland, R.; and Xie, L.
+\newblock 2018.
+\newblock \# debatenight: The role and influence of socialbots on twitter
+  during the 1st 2016 us presidential debate.
+\newblock In {\em Twelfth International AAAI Conference on Web and Social
+  Media}.
+
+\bibitem[\protect\citeauthoryear{Rodriguez, Balduzzi, and
+  Sch{\"o}lkopf}{2011}]{rodriguez2011uncovering}
+Rodriguez, M.~G.; Balduzzi, D.; and Sch{\"o}lkopf, B.
+\newblock 2011.
+\newblock Uncovering the temporal dynamics of diffusion networks.
+\newblock {\em arXiv preprint arXiv:1105.0697}.
+
+\bibitem[\protect\citeauthoryear{Shao \bgroup et al\mbox.\egroup
+  }{2018}]{shao2018spread}
+Shao, C.; Ciampaglia, G.~L.; Varol, O.; Yang, K.-C.; Flammini, A.; and Menczer,
+  F.
+\newblock 2018.
+\newblock The spread of low-credibility content by social bots.
+\newblock {\em Nature communications} 9(1):4787.
+
+\bibitem[\protect\citeauthoryear{Stewart, Arif, and
+  Starbird}{2018}]{stewart2018examining}
+Stewart, L.~G.; Arif, A.; and Starbird, K.
+\newblock 2018.
+\newblock Examining trolls and polarization with a retweet network.
+\newblock In {\em Proc. ACM WSDM, Workshop on Misinformation and Misbehavior
+  Mining on the Web}.
+
+\bibitem[\protect\citeauthoryear{Thelwall \bgroup et al\mbox.\egroup
+  }{2010}]{thelwall2010sentiment}
+Thelwall, M.; Buckley, K.; Paltoglou, G.; Cai, D.; and Kappas, A.
+\newblock 2010.
+\newblock Sentiment strength detection in short informal text.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology} 61(12):2544--2558.
+
+\bibitem[\protect\citeauthoryear{Twiplomacy}{2018}]{twiplomacy}
+Twiplomacy.
+\newblock 2018.
+\newblock Twiplomacy study 2018.
+
+\bibitem[\protect\citeauthoryear{Underwood and
+  Pezdek}{1998}]{underwood1998memory}
+Underwood, J., and Pezdek, K.
+\newblock 1998.
+\newblock Memory suggestibility as an example of the sleeper effect.
+\newblock {\em Psychonomic Bulletin \& Review} 5(3):449--453.
+
+\bibitem[\protect\citeauthoryear{Varol \bgroup et al\mbox.\egroup
+  }{2017}]{varol2017early}
+Varol, O.; Ferrara, E.; Menczer, F.; and Flammini, A.
+\newblock 2017.
+\newblock Early detection of promoted campaigns on social media.
+\newblock {\em EPJ Data Science} 6(1):13.
+
+\bibitem[\protect\citeauthoryear{Vosoughi, Roy, and
+  Aral}{2018}]{vosoughi2018spread}
+Vosoughi, S.; Roy, D.; and Aral, S.
+\newblock 2018.
+\newblock The spread of true and false news online.
+\newblock {\em Science} 359(6380):1146--1151.
+
+\bibitem[\protect\citeauthoryear{Weng \bgroup et al\mbox.\egroup
+  }{2010}]{weng2010twitterrank}
+Weng, J.; Lim, E.-P.; Jiang, J.; and He, Q.
+\newblock 2010.
+\newblock Twitterrank: finding topic-sensitive influential twitterers.
+\newblock In {\em Proceedings of the third ACM international conference on Web
+  search and data mining},  261--270.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Yang \bgroup et al\mbox.\egroup
+  }{2019}]{yang2019arming}
+Yang, K.-C.; Varol, O.; Davis, C.~A.; Ferrara, E.; Flammini, A.; and Menczer,
+  F.
+\newblock 2019.
+\newblock Arming the public with artificial intelligence to counter social
+  bots.
+\newblock {\em Human Behavior and Emerging Technologies} 1(1):48--61.
+
+\bibitem[\protect\citeauthoryear{Zannettou \bgroup et al\mbox.\egroup
+  }{2019a}]{zannettou2019characterizing}
+Zannettou, S.; Bradlyn, B.; De~Cristofaro, E.; Stringhini, G.; and Blackburn,
+  J.
+\newblock 2019a.
+\newblock Characterizing the use of images by state-sponsored troll accounts on
+  twitter.
+\newblock {\em arXiv preprint arXiv:1901.05997}.
+
+\bibitem[\protect\citeauthoryear{Zannettou \bgroup et al\mbox.\egroup
+  }{2019b}]{zannettou2019let}
+Zannettou, S.; Caulfield, T.; Setzer, W.; Sirivianos, M.; Stringhini, G.; and
+  Blackburn, J.
+\newblock 2019b.
+\newblock Who let the trolls out?: Towards understanding state-sponsored
+  trolls.
+\newblock In {\em Proceedings of the 10th ACM Conference on Web Science},
+  353--362.
+\newblock ACM.
+
+\end{thebibliography}
