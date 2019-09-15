@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.2)  6 SEP 2019 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.14)  15 SEP 2019 08:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/warproxxx/Desktop/Projects/USElection/writeup/paper.tex
-(/home/warproxxx/Desktop/Projects/USElection/writeup/paper.tex
+**c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.tex
+(c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.tex
 LaTeX2e <2018-12-01>
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+(c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,51 +22,51 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/home/warproxxx/Desktop/Projects/USElection/writeup/aaai19.sty
+) (c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/aaai19.sty
 Conference Style for AAAI for LaTeX 2e -- version for the AAAI-19 conference
 \titlebox=\skip43
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/helvet.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
- (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/courier.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen105
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen106
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -106,18 +106,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-) (/home/warproxxx/texmf/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
+) (c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip47
 \enit@outerparindent=\dimen114
 \enit@toks=\toks20
 \enit@inbox=\box29
-\enitdp@description=\count100
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2018/05/13 v1.2 Sub-captions (AR)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2019/08/29 v3.3b Customizing captions (AR)
- (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+\enit@count@id=\count100
+\enitdp@description=\count101
+) (c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+ (c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen115
@@ -128,68 +129,68 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen120
 \caption@hangindent=\dimen121
 )
-\c@caption@flags=\count101
-\c@ContinuedFloat=\count102
+\c@caption@flags=\count102
+\c@ContinuedFloat=\count103
 )
-\c@subfigure=\count103
-\c@subtable=\count104
-) (/home/warproxxx/Desktop/Projects/USElection/writeup/paper.aux
+\c@subfigure=\count104
+\c@subtable=\count105
+) (c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.aux
 
 LaTeX Warning: Label `fig:humans_bots_percentage' multiply defined.
 
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count106
 \scratchdimen=\dimen122
 \scratchbox=\box30
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count107
+\nofMParguments=\count108
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count108
+\MPscratchCnt=\count109
 \MPscratchDim=\dimen123
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)))) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)))) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -201,205 +202,170 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 30.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 31.
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 
-Underfull \hbox (badness 1509) in paragraph at lines 64--68
-[]\OT1/ptm/m/n/10 Studies have ex-plored po-lit-i-cal po-lar-iza-tion ( Munger
+Underfull \hbox (badness 1881) in paragraph at lines 60--63
+[]\OT1/ptm/m/n/10 Past stud-ies have ex-plored the po-lit-i-cal po-lar-iza-tion
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
-[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-Underfull \hbox (badness 1354) in paragraph at lines 101--104
+Underfull \hbox (badness 1354) in paragraph at lines 95--98
 []\OT1/ptm/m/n/10 Social Me-dia have been used for pos-i-tives like de-
  []
 
 [2]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 166.
+               Default added (so using `tbp') on input line 161.
 
 [3]
-Underfull \hbox (badness 1735) in paragraph at lines 274--276
+Underfull \hbox (badness 1735) in paragraph at lines 272--274
 []\OT1/ptm/m/n/10 In ( Ri-zoiu et al[] 2018)'s al-go-rithm, for each tweet
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 274--276
+Underfull \hbox (badness 3428) in paragraph at lines 272--274
 \OT1/ptm/m/n/10 in a cas-cade, the prob-a-bil-ity of it be-ing a de-scen-
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 274--276
+Underfull \hbox (badness 5756) in paragraph at lines 272--274
 \OT1/ptm/m/n/10 dant of each pre-vi-ous tweet is cal-cu-lated us-ing a
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 274--276
+Underfull \hbox (badness 6978) in paragraph at lines 272--274
 \OT1/ptm/m/n/10 soft-max func-tion. Math-e-mat-i-cally, prob-a-bil-ity that a
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 274--276
+Underfull \hbox (badness 1953) in paragraph at lines 272--274
 \OT1/ptm/m/it/10 j$[]$ \OT1/ptm/m/n/10 tweet is a retweet of \OT1/ptm/m/it/10 i$[]$ \OT1/ptm/m/n/10 tweet is mea-sured by :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 []\OT1/ptm/m/it/10 m \OT1/ptm/m/n/10 is the num-ber of fol-low-ers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 292.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlptm.fd
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 290.
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 292.
-<images/mostly_bots.png, id=20, 1606.0pt x 803.0pt>
-File: images/mostly_bots.png Graphic file (type png)
-<use images/mostly_bots.png>
-Package pdftex.def Info: images/mostly_bots.png  used on input line 340.
-(pdftex.def)             Requested size: 239.39438pt x 119.69737pt.
-<images/mostly_humans.png, id=21, 1606.0pt x 803.0pt>
-File: images/mostly_humans.png Graphic file (type png)
-<use images/mostly_humans.png>
-Package pdftex.def Info: images/mostly_humans.png  used on input line 372.
-(pdftex.def)             Requested size: 239.39438pt x 119.69737pt.
-<images/emotions.png, id=22, 1084.05pt x 722.7pt>
-File: images/emotions.png Graphic file (type png)
-<use images/emotions.png>
-Package pdftex.def Info: images/emotions.png  used on input line 404.
-(pdftex.def)             Requested size: 239.39438pt x 159.58997pt.
- [5 </home/warproxxx/Desktop/Projects/USElection/writeup/images/mostly_bots.png (PNG copy)>]
-<images/bots_furtherretweeted.png, id=34, 1084.05pt x 722.7pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 290.
+<images/bots_furtherretweeted.png, id=27, 1084.05pt x 722.7pt>
 File: images/bots_furtherretweeted.png Graphic file (type png)
 <use images/bots_furtherretweeted.png>
-Package pdftex.def Info: images/bots_furtherretweeted.png  used on input line 425.
+Package pdftex.def Info: images/bots_furtherretweeted.png  used on input line 402.
 (pdftex.def)             Requested size: 239.39438pt x 159.58997pt.
-<images/humans_furtherretweeted.png, id=35, 1084.05pt x 722.7pt>
+<images/humans_furtherretweeted.png, id=29, 1084.05pt x 722.7pt>
 File: images/humans_furtherretweeted.png Graphic file (type png)
 <use images/humans_furtherretweeted.png>
-Package pdftex.def Info: images/humans_furtherretweeted.png  used on input line 430.
+Package pdftex.def Info: images/humans_furtherretweeted.png  used on input line 407.
 (pdftex.def)             Requested size: 239.39438pt x 159.58997pt.
-<images/bot_humans_retweet_percentages.png, id=36, 1084.05pt x 722.7pt>
+ [5]
+<images/bot_humans_retweet_percentages.png, id=33, 1084.05pt x 722.7pt>
 File: images/bot_humans_retweet_percentages.png Graphic file (type png)
 <use images/bot_humans_retweet_percentages.png>
-Package pdftex.def Info: images/bot_humans_retweet_percentages.png  used on input line 443.
+Package pdftex.def Info: images/bot_humans_retweet_percentages.png  used on input line 424.
 (pdftex.def)             Requested size: 239.39438pt x 159.58997pt.
-<images/top_influences.png, id=37, 1445.4pt x 722.7pt>
+<images/top_influences.png, id=34, 1445.4pt x 722.7pt>
 File: images/top_influences.png Graphic file (type png)
 <use images/top_influences.png>
-Package pdftex.def Info: images/top_influences.png  used on input line 459.
+Package pdftex.def Info: images/top_influences.png  used on input line 438.
 (pdftex.def)             Requested size: 239.39438pt x 119.69247pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/top_1per_bots.png, id=38, 433.62pt x 289.08pt>
+ [6 <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/bots_furtherretweeted.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/humans_furtherretweeted.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/bot_humans_retweet_percentages.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/top_influences.png>]
+<images/top_1per_bots.png, id=42, 433.62pt x 289.08pt>
 File: images/top_1per_bots.png Graphic file (type png)
 <use images/top_1per_bots.png>
-Package pdftex.def Info: images/top_1per_bots.png  used on input line 474.
+Package pdftex.def Info: images/top_1per_bots.png  used on input line 452.
 (pdftex.def)             Requested size: 95.75629pt x 63.83598pt.
-<images/top_1per_humans.png, id=39, 433.62pt x 289.08pt>
+<images/top_1per_humans.png, id=43, 433.62pt x 289.08pt>
 File: images/top_1per_humans.png Graphic file (type png)
 <use images/top_1per_humans.png>
-Package pdftex.def Info: images/top_1per_humans.png  used on input line 478.
+Package pdftex.def Info: images/top_1per_humans.png  used on input line 456.
 (pdftex.def)             Requested size: 95.75629pt x 63.83598pt.
-<images/top_1per_all.png, id=40, 433.62pt x 289.08pt>
+<images/top_1per_all.png, id=44, 433.62pt x 289.08pt>
 File: images/top_1per_all.png Graphic file (type png)
 <use images/top_1per_all.png>
-Package pdftex.def Info: images/top_1per_all.png  used on input line 482.
+Package pdftex.def Info: images/top_1per_all.png  used on input line 460.
 (pdftex.def)             Requested size: 191.51622pt x 127.67638pt.
-[6 </home/warproxxx/Desktop/Projects/USElection/writeup/images/mostly_humans.png (PNG copy)> </home/warproxxx/Desktop/Projects/USElection/writeup/images/emotions.png>]
 <images/diffusion_graph.png, id=45, 433.62pt x 289.08pt>
 File: images/diffusion_graph.png Graphic file (type png)
 <use images/diffusion_graph.png>
-Package pdftex.def Info: images/diffusion_graph.png  used on input line 497.
+Package pdftex.def Info: images/diffusion_graph.png  used on input line 478.
 (pdftex.def)             Requested size: 239.39438pt x 159.59879pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 </home/warproxxx/Desktop/Projects/USElection/writeup/images/bots_furtherretweeted.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/humans_furtherretweeted.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/bot_humans_retweet_percentages.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/top_influences.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/top_1per_bots.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/top_1per_humans.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/top_1per_all.png>]
-<images/mostly_human_urls.png, id=57, 1606.0pt x 803.0pt>
-File: images/mostly_human_urls.png Graphic file (type png)
-<use images/mostly_human_urls.png>
-Package pdftex.def Info: images/mostly_human_urls.png  used on input line 560.
-(pdftex.def)             Requested size: 95.75629pt x 47.8716pt.
-<images/mostly_bots_urls.png, id=58, 1606.0pt x 803.0pt>
-File: images/mostly_bots_urls.png Graphic file (type png)
-<use images/mostly_bots_urls.png>
-Package pdftex.def Info: images/mostly_bots_urls.png  used on input line 564.
-(pdftex.def)             Requested size: 95.75629pt x 47.8716pt.
-<images/bots_influence_vs_size.png, id=59, 1084.05pt x 722.7pt>
-File: images/bots_influence_vs_size.png Graphic file (type png)
-<use images/bots_influence_vs_size.png>
-Package pdftex.def Info: images/bots_influence_vs_size.png  used on input line 575.
-(pdftex.def)             Requested size: 239.39438pt x 159.58997pt.
 
-Overfull \hbox (33.72385pt too wide) in paragraph at lines 585--596
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+
+Overfull \hbox (16.87303pt too wide) in paragraph at lines 541--552
  [][] 
  []
 
+[7 <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/top_1per_bots.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/top_1per_humans.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/top_1per_all.png> <c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/images/diffusion_graph.png>] (c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.bbl [8] [9]) [10
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
-
- [8 </home/warproxxx/Desktop/Projects/USElection/writeup/images/diffusion_graph.png> </home/warproxxx/Desktop/Projects/USElection/writeup/images/mostly_human_urls.png (PNG copy)> </home/warproxxx/Desktop/Projects/USElection/writeup/images/mostly_bots_urls.png (PNG copy)> </home/warproxxx/Desktop/Projects/USElection/writeup/images/bots_influence_vs_size.png>] (/home/warproxxx/Desktop/Projects/USElection/writeup/paper.bbl [9] [10]) [11
-
-] (/home/warproxxx/Desktop/Projects/USElection/writeup/paper.aux)
+] (c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3866 strings out of 492609
- 61172 string characters out of 6129034
- 140321 words of memory out of 5000000
- 7713 multiletter control sequences out of 15000+600000
- 24609 words of font info for 48 fonts, out of 8000000 for 9000
+ 3853 strings out of 492623
+ 60055 string characters out of 6133290
+ 141337 words of memory out of 5000000
+ 7705 multiletter control sequences out of 15000+600000
+ 21004 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,40p,469b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/warproxxx/Desktop/Projects/USElection/writeup/paper.pdf (11 pages, 1497587 bytes).
+ 42i,10n,40p,473b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users/Daniel/Desktop/Projects/AAAI-US-Election-Paper/paper.pdf (10 pages, 1538054 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

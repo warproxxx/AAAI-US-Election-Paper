@@ -9,11 +9,6 @@ Abokhodair, N.; Yoo, D.; and McDonald, D.~W.
   Cooperative Work \& Social Computing},  839--851.
 \newblock ACM.
 
-\bibitem[\protect\citeauthoryear{Adstage}{2019}]{adstage_2018_report}
-Adstage.
-\newblock 2019.
-\newblock Q4 2018 paid media benchmark report.
-
 \bibitem[\protect\citeauthoryear{Asur and Huberman}{2010}]{asur2010predicting}
 Asur, S., and Huberman, B.~A.
 \newblock 2010.
@@ -51,11 +46,6 @@ Bradshaw, S., and Howard, P.
 \newblock 2017.
 \newblock Troops, trolls and troublemakers: A global inventory of organized
   social media manipulation.
-
-\bibitem[\protect\citeauthoryear{Center}{2018}]{pew_research_news}
-Center, P.~R.
-\newblock 2018.
-\newblock News use across social media platforms 2018.
 
 \bibitem[\protect\citeauthoryear{Cho \bgroup et al\mbox.\egroup
   }{2013}]{cho2013latent}
@@ -379,6 +369,11 @@ Petty, R.; Cacioppo, J.; Strathman, A.; and Priester, J.
 \newblock To think or not to think? exploring two routes to persuasion in:
   Shavitt s, brock tc, editors. persuasion: Psychological insights and
   perspectives.
+
+\bibitem[\protect\citeauthoryear{PewResearchCenter}{2018}]{pew_research_news}
+PewResearchCenter.
+\newblock 2018.
+\newblock News use across social media platforms 2018.
 
 \bibitem[\protect\citeauthoryear{Pornpitakpan}{2004}]{pornpitakpan2004persuasiveness}
 Pornpitakpan, C.
