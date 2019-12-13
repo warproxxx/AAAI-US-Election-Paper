@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex paper"] 1576199396 "paper.aux" "paper.bbl" "paper" 1576200527
+["bibtex paper"] 1576199396 "paper.aux" "paper.bbl" "paper" 1576213406
   "./aaai.bst" 1574655837 21725 6d8748be1c9864381e507b2fcffde491 ""
-  "paper.aux" 1576200521 9153 5c2835d96211e4f680cc2a3e941a2ca7 "pdflatex"
+  "paper.aux" 1576213406 9153 5c2835d96211e4f680cc2a3e941a2ca7 "pdflatex"
   "references.bib" 1576154203 20992 69278783df10d0c6c62d492e3f761880 ""
   (generated)
   "paper.blg"
   "paper.bbl"
-["pdflatex"] 1576200520 "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.tex" "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.pdf" "paper" 1576200527
-  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.aux" 1576200521 9153 5c2835d96211e4f680cc2a3e941a2ca7 ""
-  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.tex" 1576200527 33508 0279cbc051329e5f24e19373f28a66f1 ""
+["pdflatex"] 1576213405 "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.tex" "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.pdf" "paper" 1576213406
+  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.aux" 1576213406 9153 5c2835d96211e4f680cc2a3e941a2ca7 ""
+  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.tex" 1576213405 33506 740ec7125da2d24a24c354da1ebe7621 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -82,12 +82,12 @@
   "images/humans_furtherretweeted.png" 1576143420 31163 eae96a0dcb8ff7794b004e24ef1887e8 ""
   "images/top_influences.png" 1576151859 112455 ad7e2e784280fb254f96e201c5765104 ""
   "images/top_percentages.png" 1576144542 16171 6093816b48dad8fd8b715c9e88620102 ""
-  "paper.aux" 1576200521 9153 5c2835d96211e4f680cc2a3e941a2ca7 "pdflatex"
+  "paper.aux" 1576213406 9153 5c2835d96211e4f680cc2a3e941a2ca7 "pdflatex"
   "paper.bbl" 1576199396 17898 28843e36373016a2ab9aef42873238dd "bibtex paper"
-  "paper.tex" 1576200527 33508 0279cbc051329e5f24e19373f28a66f1 ""
+  "paper.tex" 1576213405 33506 740ec7125da2d24a24c354da1ebe7621 ""
   (generated)
   "paper.pdf"
+  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.pdf"
+  "paper.aux"
   "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.log"
   "paper.log"
-  "paper.aux"
-  "/home/warproxxx/Desktop/Projects/midterm-bot-influence/paper/paper.pdf"
