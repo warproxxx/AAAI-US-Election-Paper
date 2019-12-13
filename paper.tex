@@ -5,6 +5,7 @@
 \usepackage{courier} 
 \usepackage[hyphens]{url}
 \usepackage{graphicx}
+\usepackage{float}
 \urlstyle{rm}
 \def\UrlFont{\rm}
 \usepackage{graphicx}
@@ -18,78 +19,73 @@
 
 
 \pdfinfo{
-/Title (Measuring the Influence of Twitter Bots during the 2018 US Midterm Election)
+/Title (Measuring the Influence of Trollbots during the 2018 US Midterm Election)
 /Author ()
 }
 
 \setcounter{secnumdepth}{2} %May be changed to 1 or 2 if section numbers are desired.
 
-\title{Measuring the Influence of Twitter Bots during the 2018 US Midterm Election}
+\title{Measuring the Influence of Trollbots in Twitter during the 2018 US Midterm Election}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-    Use of bots in social media and its consequences has been a subject of great public interest. In this study, we measure the influence of bots during 
-    the 2018 US Midterm Elections. Between October 31, 2018 and November 7, 2018 we collected 6.48M tweets and 1.6M profile data from Twitter. We used 
-    Machine Learning techniques to separate bot and human accounts and found that 1\% of the
-    top bots influenced the creation of 11\% of all the tweets. Additionally, for URLs which were retweeted more than ten times in our dataset, we found that the 
-    total influence percentage of bots was double their size. 
-    Influence is a number we give to a tweet which measures 
-    the expected number of time the tweet gets retweeted over all possible diffusion scenarios. Influence is converted to percentage by using the sum of user wise influence 
-    throughout the dataset.
-\end{abstract}
+    The use of troll bots in social media and its consequences has been a subject of great public interest. In this study, 
+    we measure the influence of trollbots during 
+    the 2018 US Midterm Elections. We selected 2.94M tweets and 870k 
+    profile data posted between October 31, 2018, and November 7 using nine keywords. On December 10, 2019, 
+    we rescraped Twitter to find suspended and removed accounts. We identified the suspended accounts 
+    as Trollbots and used Machine Learning on the removed 
+    accounts to find other trollbots. We found that the top 1\% of the Trollbots, influenced the creation of 7\% of all the tweets.
+    In Twitter, Tweet or a retweet made by another user can be retweeted.
+    We estimate the number of times the tweet or the retweet 
+    gets retweeted by other users to calculate the influence of a Tweet.
+    We added the influence of all Tweets made by a user to calculate user wise influence.\end{abstract}
 
 \section{Introduction}
 \label{sec:introduction}
 
-Twitter is a social media where short messages get exchanged. Messages shared by a user are shown to
-their followers and to followers of those who share the message. These messages are called Tweets. Sharing can be done by retweeting
-(sharing) or replying to the tweet. When Alice replies/retweets, a tweet made by Bob, Alice and Bob's followers will see the tweet. In this
-way, messages spread. Having massive followers, getting many retweets, getting retweeted by people with massive followers or advertising can make a tweet viral.\par
+Twitter is a social networking service where users interact with each other using short messages called Tweet. 
+Tweets spread through retweets or replies. For example, when Alice replies/retweets, a tweet made 
+by Bob, Alice and Bob's followers see the tweet. \par
 
-People use social media, at least in part, to form an opinion about lifestyle, health, politics, and purchase \cite{varol2017early}. 
-Due to the power of social media in influencing opinion, various ethical and unethical techniques have been devised to reach a big audience. 
-One such unethical technique is the use of bots. Social bots are account controlled wholly or partially by a computer algorithm. 
-These bots can generate content and interact with human users often imitating humans \cite{ferrara2016rise}.
-A US special counsel investigation found that Twitter accounts of US personas were being operated as a botnet (a network of bots) to amplify content. 
-During the 2016 US Presidential Election, they chose candidates to support and oppose \cite{luceri2019red,mueller_investigation}. 
-These propaganda bots were found to be high volume, multichannel, rapid, continuous, repetitive, inaccurate, and inconsistent \cite{paul2016russian}. \par
+People use social media, at least in part, to form an opinion about lifestyle, health, politics, and purchase 
+\cite{varol2017early}. To reach many audience, various ethical and unethical 
+techniques have been devised. 
+One such unethical technique is the use of trollbots. Here we defined Trollbots as the account which violates
+Twitter's terms of service. The most common reason for the suspension is spam and abusive behaviour 
+\cite{twitter}. \par
 
-Past studies have explored the political polarization \cite{munger2017don,rizoiu2018debatenight,gruzd2014investigating,bovet2019influence}, origin of bots 
-\cite{zannettou2019let,zannettou2019characterizing} and the spread of fake news \cite{vosoughi2018spread,shao2018spread,lazer2018science,bovet2019influence,grinberg2019fake}
-on twitter. Previous US Election has been studied before. Most studies focus on 2016 Election \cite{bovet2019influence,rizoiu2018debatenight,bessi2016social,howard2018algorithms,howard2016bots}. \cite{deb2019perils} 
-studied the 2018 Midterm Election.\par 
-
-Few studies perform a large scale quantitative study of the role played by bots during a significant event. To fill the gaps in the literature, 
-we measured the influence of bots during the 2018 US Midterm Election. \par
-
+In this study, we rely on Twitter for most of the bot detection to focus on measuring the influence.
 
 \subsection{Summary and Findings}
 
 \begin{itemize}
-    \item 10.5\% of the users in the datasets were bots. They made 12.6\% of the tweets and created 22\% of the total influence.
-    \item On Average, bots were twice as influential as humans
-    \item Top 1\% of the bots influenced the creation of 11\% of all the retweets during this time.
-    \item In average a single URL was shared 27.84 times in 1.97 cascades. URL cascade is formed when a Tweet mentions a URL. Any further retweet belong to the same cascade.
-    \item For URLs which were shared more than ten times, the influence percentage of bots was double their size.
-    \item 81.64\% of all interaction (retweets and replies) took place between humans, and 2.87\% took place between bots. 6.37\% was bot-human, and 9.14\% was human-bot interaction.
-    \item Most of the codes and notebooks are shared publicly in https://github.com/warproxxx/2018Midterm to help future researchers and ensures transparency.
+    \item 13.6\% of the users in the datasets no longer existed. 4.1\% had been suspended. Of the remaining 9.5\%, 22\% were bots. Overall, 6.19\% of the users were bots. They made 
+    12\% of all the Tweets.
+    \item On Average, trollbots were 53\% more influential than humans
+    \item Top 1\% of the trollbots influenced the creation of 7\% of all the retweets/replies.
+    \item On average, a single URL was shared 26.48 times in 1.98 cascades. When a Tweet 
+    mentions a URL. Any further retweet belongs to the same cascade.
+    \item For URLs that were shared more than ten times, the influence percentage of bots was 70\% greater than their 
+    size.
+    \item 74.18\% of all interaction (retweets and replies) took place between humans, and 1.78\% took place between 
+    bots. 12.04\% was bot-human, and 12\% was human-bot interaction.
 \end{itemize}
-
-*
+   
 \section{Related Work}
 \label{sec:related}
 
-\subsection{Social Media and Bots}
+\subsection{Social Media, Trolls and Bots}
 People are spending more and more time on social media. Globally, people spend 2 hours and 23 minutes on average in Social Media. 40\%  people use social media to stay up to date 
 with news and current events \cite{2019_social_flagship_report}. 68\% of American adults get their news from
 social media while 42\% find news on social media to be mostly accurate \cite{pew_research_news}.\par
 
-Twitter is not the most popular social media. 12\% of US adults get news from Twitter compared to Facebook's 43\% \cite{pew_research_news}. However, 
-Twitter is the number one platform for government leaders. 97\% of all UN members have an official presence in Twitter \cite{twiplomacy}. Furthermore, Twitter API provides easy access to data.
-Consequently, Twitter has been widely studied \cite{rizoiu2018debatenight,grinberg2019fake,bovet2019influence,morstatter2018alt,munger2017don,gruzd2014investigating,zannettou2019characterizing,howard2016bots}.
+12\% of US adults get news from Twitter\cite{pew_research_news}. Twitter is the number one platform for government 
+leaders. 97\% of all UN members have an official presence in Twitter \cite{twiplomacy}. Furthermore, Twitter API 
+provides easy access to data. Consequently, Twitter has been widely studied \cite{rizoiu2018debatenight,grinberg2019fake,bovet2019influence,morstatter2018alt,munger2017don,gruzd2014investigating,zannettou2019characterizing,howard2016bots}.
 \par
 
 Social Media have been used for positives like democratizing online discussion, organizing civil movements \cite{gonzalez2013broadcasters}, augumenting public health 
@@ -98,97 +94,97 @@ for other greater goods \cite{moorhead2013new,househ2014empowering}. However, re
 \cite{forelle2015political,bradshaw2017troops,marwick2017media}. \par
 
 Different types of bots exist in social media. A simple bot will post predetermined messages at predetermined intervals \cite{haustein2016tweets}. Bots are also used to increase followers
-and make an account appear popular \cite{cresci2015fame}. Botnets are a network of bots working together. The word Botnet is also used to refers to a network of compromised computer. However, in this report, 
-the word botnet refers to a network of social media bots working together to make an influence and should not be confused with the other definition. Many botnets use a hybrid human/automation 
-approach \cite{grimme2018changing}. Botnets have been used to promote spam \cite{ferrara2018measuring}, which seem to shifted to social media due to the effectiveness of spam filter \cite{gao2010detecting,chu2012detecting,ferrara2018measuring}, 
+and make an account appear popular \cite{cresci2015fame}. Here, Botnet refers to a network of social media bots working together to make an influence. Many botnets use 
+a hybrid human/automation approach \cite{grimme2018changing}. Botnets have been used to promote spam \cite{ferrara2018measuring}, which seem to shifted to social media due to the effectiveness of spam filter \cite{gao2010detecting,chu2012detecting,ferrara2018measuring}, 
 manipulate stocks \cite{ferrara2015manipulation}, manipulate elections \cite{morstatter2018alt}, 
-and for various other purposes \cite{abokhodair2015dissecting}.
-Botnets were detected as early as 2010 US Midterm Election \cite{mitter2014categorization}. Over time, their use and study have increased. 
-Studies have detected and analyzed bots in the 2017 German Federal Election \cite{morstatter2018alt} ,2017 French Presidential Election \cite{ferrara2017disinformation} and during 
+and for various other purposes \cite{abokhodair2015dissecting}. Many of the suspended users are a part of Botnets.
+Botnets were detected as early as 2010 US Midterm Election \cite{mitter2014categorization}. Over time, their use and
+ study have increased. Studies have detected and analyzed bots in the 2017 German Federal Election \cite{morstatter2018alt} ,2017 French Presidential Election \cite{ferrara2017disinformation} and during 
 various US Elections \cite{mitter2014categorization,bovet2019influence,rizoiu2018debatenight,bessi2016social,howard2018algorithms,howard2016bots,deb2019perils}. In Elections, 
 they have been used to support candidates \cite{luceri2019red}, attack people \cite{mueller_investigation} and spread fake news \cite{vosoughi2018spread,grinberg2019fake}. 
 Political bots are active beyond the election time. \cite{stewart2018examining} found that Russian bots infiltrated both right and left-leaning communities and spread different narratives 
 \cite{mueller_investigation}. \par
 
-In Twitter, bots share content 
-in multiple channel \cite{paul2016russian}. This activity is in line with literature which shows that information from multiple sources appears more trustworthy than a single one \cite{harkins1981multiple}. 
- Bots attack people. Attacking trustworthiness has been shown to diminish the credibility of the Original Poster \cite{pornpitakpan2004persuasiveness}. 
-Bots are continuous, repetitive, but most of the times, they are also far from reality \cite{paul2016russian}. The high volume seems to ensure early exposure and \cite{petty1994think} shows that early
+In Twitter, the trollbots share content 
+in multiple channels \cite{paul2016russian}. This activity is in line with literature, which shows that information 
+from multiple sources appears more trustworthy than a single one \cite{harkins1981multiple}. 
+ Trollbots attack people. Attacking trustworthiness has been shown to diminish the credibility of the Original Poster \cite{pornpitakpan2004persuasiveness}. 
+Bots are continuous, repetitive, but most of the time, they are also far from reality \cite{paul2016russian}. 
+The high volume seems to ensure early exposure and \cite{petty1994think} shows that early
  first impression is more likely to be accepted by the brain. Due to a phenomenon called Sleeper Effect, where information gets disassociated from the source while remembering \cite{underwood1998memory,paul2016russian}
- low credibility sources can have persuasive power to unbiased or neutral people. As a boost to sleeper effect, people are 31\% more likely to remember what they see on twitter, 
+ low credibility sources can have the persuasive power to unbiased or neutral people. As a boost to sleeper effect, people are 31\% more likely to remember what they see on twitter, 
  compared to the normal web \cite{twitter_remember}. \par
 
-\subsection{Bot Detection}
+\subsection{Trollbot Detection}
 Most studies \cite{rizoiu2018debatenight,yang2019arming,shao2018spread} use Botometer\cite{davis2016botornot,yang2019arming} for bot detection.
-Botometer's Machine Learning algorithm provides an account-level bot classification. Botometer classifies account partially and completely automatized as bots. 
-Botometer has some false positives. Its detection of organizational accounts as bots have been highly criticized \cite{varol2017early} \cite{botometer_tweet}. However, even with its false positive, 
-Botometer has no transparent competitor and 
-remains the most accurate bot detection system in academia. \par
-
+Botometer's Machine Learning algorithm provides an account-level bot classification. Botometer classifies account 
+partially and completely automatized as bots. 
 Botometer uses more than a thousand features created from temporal activity, network structure, content analysis, sentiment analysis, and user profile data to
-determine a bot score \cite{davis2016botornot,yang2019arming}. \cite{bessi2016social} illustrated that profile customization, geographical metadata, and activity statistics provided the strongest signals for bot detection. \cite{ferrara2017disinformation} and \cite{kudugunta2018deep} used various machine learning techniques on these features. \cite{ferrara2017disinformation}
-obtained 93\% accuracy with an AUC-ROC score of 92\% in their best model using Random Forest classifier. \cite{kudugunta2018deep} used 3,000 labeled examples to train a system with an AUC greater than 99\%
-using Adaboost Classifier with Over Sampling and Undersampling of data using the SMOTENN algorithm. \cite{kudugunta2018deep} also presented a tweet level classification using contextual LSTM
-classifier with tweet metadata and deep learning. \par
+determine a bot score \cite{davis2016botornot,yang2019arming}. \cite{bessi2016social} illustrated that profile 
+customization, geographical metadata, and activity statistics provided the strongest signals for bot detection.
+However, Botometer has high false positive and detects organizational accounts as bots \cite{varol2017early} \cite{botometer_tweet}.
+\par
 
-
-Most studies show that 10-20\% in social media are bots. In earlier studies, the number was on the higher side. 18\% of users in \cite{bovet2019influence}'s study were bots.
-A more recent study by \cite{deb2019perils} states that their number may have dropped.
+\cite{ferrara2017disinformation} and \cite{kudugunta2018deep} had success detecting bots using fewer features. 
+\cite{ferrara2017disinformation} obtained 93\% accuracy with an AUC-ROC score of 92\% in their best model 
+using Random Forest classifier. \cite{kudugunta2018deep} used 3,000 labelled examples to train a system with an 
+AUC greater than 99\% using Adaboost Classifier with Over Sampling and Undersampling of data using the SMOTENN 
+algorithm. \par
 
 \subsection{Influence Detection}
-\cite{zannettou2019let} uses Hawkes Process to determine the influence Iranian and Russian bots had on pushing URLs in 4 social media platforms. They found that Russian trolls were extraordinarily 
-influential and efficient in spreading URLs. \cite{shao2018spread} found that bots amplify URLs in early moments before an article goes viral, while \cite{ferrara2018measuring} 
-found the same for spam. Bots target users with many followers through replies and manipulation. This method was very efficient. \par
+\cite{zannettou2019let} uses Hawkes Process to determine the influence Iranian and Russian bots had on pushing URLs
+ in 4 social media platforms. They found that Russian trolls were extraordinarily 
+influential and efficient in spreading URLs. \cite{shao2018spread} found that bots amplify URLs in early moments 
+before an article goes viral, while \cite{ferrara2018measuring} 
+found the same for spam. Bots target users with many followers through replies and manipulation. This method was
+ very efficient. \par
 
 
-\cite{shao2018spread} also found that articles spread 
-mostly through tweets and retweets and much lesser from replies. Their study showed that people do not discriminate between resources shared by humans and bots. 
-\cite{shao2018spread} and \cite{grinberg2019fake} found super spreaders. Moreover,  \cite{grinberg2019fake} found that  1\% of individuals accounted for 80\% of fake news exposure. 
+\cite{shao2018spread} found that articles spread 
+mostly through tweets and retweets. Their study showed that people do not discriminate between resources 
+shared by humans and bots. \cite{shao2018spread} and \cite{grinberg2019fake} found super spreaders. 
+Moreover, \cite{grinberg2019fake} found that 1\% of individuals accounted for 80\% of fake news exposure. 
 \cite{varol2017early} also found that 2\% user accounts were responsible for 60\% of the conversation. \par
 
-\cite{rizoiu2018debatenight} found that social bots were 2.5 times more influential than humans. They introduce a scalable algorithm for estimating user influence in retweet cascades. 
-For each tweet in an information cascade, it uses time of post and the number of followers to determine the probability of whether a tweet is a retweet of another. They then find influence which can be used 
-to find out how many users the tweet possibly influenced to retweet. It was tested successfully in artificial social media. Other studies have attempted to measure influence before this. 
-\cite{weng2010twitterrank} used eigenvector centrality of the connection to measure influence, but it is not scalable into big cascades. There are other methods like 
-\cite{rodriguez2011uncovering,cho2013latent,linderman2014discovering} but they either have scaling issue or require full diffusion graph, which Twitter does not provide.
+\cite{rizoiu2018debatenight} found that social bots were 2.5 times more influential than humans. They used 
+Botometer to label the bots and introduced a 
+scalable algorithm for estimating user influence in retweet cascades. 
+For each tweet in an information cascade, it uses time of post and the number of followers to determine the 
+probability of whether a tweet is a retweet of another. They then find influence which can be used 
+to find out how many users the tweet possibly influenced to retweet. It was tested successfully in 
+artificial social media. Other studies have attempted to measure influence before this. 
+\cite{weng2010twitterrank} used eigenvector centrality of the connection to measure influence, but it is 
+not scalable into big cascades. There are other methods like 
+\cite{rodriguez2011uncovering,cho2013latent,linderman2014discovering}, but they either have scaling issues or 
+require a full diffusion graph, which Twitter does not provide.
 
 \section{Methods}
 \label{sec:method}
 \subsection{Data Collection}
-Twenty-nine manually identified keywords, and names of all 53 House candidates and 27 Senate candidates were used to collect live data from Twitter. The manually defined keywords are in 
-Table \ref{tab:manual-keywords}
+Tweets containing nine manually identified keywords were selected from collected live data from Twitter. The 
+keywords are:
 
-\begin{table}[]
-    \centering
-    \begin{tabular}{ll}
-    • 2018Midterms & • resist \\
-    • 2018MidtermElections & • VOTE \\
-    • Election2018 & • GAEarlyVoting \\
-    • ElectionDay & • EarlyVoting \\
-    • MAGA2018 & • plus1 \\
-    • MAGA & • IVoted \\
-    • Trump2020 & • WinBlue \\
-    • AmericaFirst & • WinRed \\
-    • TheResistance & • BlueWave \\
-    • WalkAwayFromRepublicans2018 & • RedWave \\
-    • VoteThemOut & • republican2018 \\
-    • 2018Senate & • democrat2018 \\
-    • VoteRed & • Republican \\
-    • Voteblue & • Democrat \\
-    • WalkAwayFromDemocrats2018 & 
-    \end{tabular}
-    \caption{Manual Keywords}
-    \label{tab:manual-keywords}
-\end{table}
+\begin{itemize}
+    \item 2018Midterms
+    \item Election
+    \item Election2018
+    \item 2018Senate
+    \item WinBlue
+    \item WinRed
+    \item BlueWave
+    \item RedWave
+    \item Republican
+    \item Democrat
+\end{itemize}
 
-Twitter provides Streaming API, Search API, and a premium Firehose API to provide access to tweets. Streaming API provides limited access to live data (thus also called 1\% API)
- while Firehose API
-provides complete data. However, due to the associated costs, Firehose API was not an option in this study. \cite{morstatter2013sample} compares the Streaming API with Firehose API.
-They found that Streaming API was nearly as good as a random sample of Firehose API when the dataset was large enough. Although the 1\% API was not as good as a 1\% random sample from the Firehose API in 
-all of their tests, it estimated the top hashtags correctly when the data was large enough. It recommended the creation of specific parameters and using a large sample. 
-Due to the possible issues in Streaming API, \cite{bessi2016social} recommends using Twitter Search API. 
+Twitter provides Streaming API, Search API, and a premium Firehose API to give access to tweets. 
+Streaming API provides limited access to live data, while Firehose API provides complete data. However, due to the 
+associated costs, Firehose API was not an option in this study. \cite{morstatter2013sample} compares the 
+Streaming API with Firehose API. They found that Streaming API was nearly as good as a random sample of Firehose API 
+when the dataset was large enough. Although the 1\% API was not as good as a 1\% random sample from the Firehose API 
+in all of their tests, it estimated the top hashtags correctly when the data was large enough. \par 
 
-\par In this study, we use Streaming API with many keywords as suggested by \cite{morstatter2013sample} to collect a large dataset. While collecting data, information about the tweeter and the tweet was collected. 
+In this study, we use Streaming API. While collecting data, information about the tweeter and the tweet was collected. 
 
 We collected following information about a tweet:
 \begin{enumerate}[label=\textbf{\arabic*}]
@@ -220,41 +216,28 @@ We collected the following profile information from the Twitter API:
     \item \textbf{Profile Modified:}  Binary if a profile has been modified
 \end{enumerate}
 \bigskip
-\cite{kudugunta2018deep} and \cite{ferrara2017disinformation} use the same parameters in their machine learning architecture. \par
+\cite{kudugunta2018deep} and \cite{ferrara2017disinformation} use the same parameters in their machine learning 
+architecture. \par
 
-We collected Tweets from October 31, 2018 (1 AM UTC) to November 7, 2018 (midnight UTC). On July 18, 2019, we used Twitter API to rescrape the top 100k most retweeted which did not 
-exist in our dataset.
+We collected Tweets from October 31, 2018 (1 AM UTC) to November 7, 2018 (midnight UTC). On July 18, 2019, we used 
+Twitter API to rescrape the top 100k most retweeted Tweets which did not exist in our dataset.
 
 \subsection{Data Processing}
-First, we manually removed irrelevant tweets. We created keywords find and remove these irrelevant data.\par
+We used SentiStrength in the Tweets to compare the sentiment. SentiStrength \cite{thelwall2010sentiment} is used 
+to annotate short, informal tweet like texts \cite{bessi2016social}. 
+It can capture positive and negative emotions at an accuracy of 60.6\% and 72.8\%. SentiStrength gives a positive 
+and negative score between 0 and 4. The positive sentiment is subtracted from the negative like in \cite{bessi2016social} to get a whole number. SentiStrength is used instead of another 
+popular solution VADER because it performed better in manual analysis.
 
-We used SentiStrength and VADER Sentiment analysis in the Tweets. SentiStrength \cite{thelwall2010sentiment} is used to annotate short, informal tweet like texts \cite{bessi2016social}. 
-It can capture positive and negative emotions at an accuracy of 60.6\% and 72.8\%. SentiStrength gives a positive and negative score between 0 and 4. The positive sentiment is subtracted 
-from the negative like in \cite{bessi2016social} to get a whole number. VADER is a rule-based sentiment classification designed for use in social media data. VADER was found to outperform 
-individual human raters with an F1 accuracy of 0.96 compared to 0.84 for humans \cite{hutto2014vader}.
+\subsection{Trollbot Detection}
+A year after the data collection, we checked twitter to find accounts that no longer existed. 117650 of the 863539
+accounts did not. Of them, the 32323 suspended accounts were verified to be troll bots. The remaining 85327 
+could or could not be bots as they also include accounts deactivated by users. So, we used Machine Learning in this 
+data. Initially, we had used Machine Learning on the complete dataset, but we received bad accuracy using that 
+mechanism. \par
 
-\subsection{Bot Detection}
-Detecting bots on the wild is more complicated than against a validation set \cite{bovet2019influence,varol2017early,ferrara2016rise}. The collected dataset had 1.7M 
-users. Although Botometer is publicly available, getting information for 1.7M data would be expensive. So the following steps were used to train a bot detection system:
-
-\begin{itemize}
-    \item \cite{cresci2017paradigm} provided a labeled account level bot or not data with relevant features that included the ones we collected.
-    We used these features to train a Random Forest Classifier and detect bots. 
-    \cite{cresci2017paradigm}'s data is old, and bots evolve quickly. So further processing was required.
-    \item We used the trained model on our dataset, which contains the same features, to select 40k highly probable bots.
-    \item We selected 40k highly probable bots and 32k random accounts from our dataset and performed bot detection through Botometer. Botometer returns CAP score and bot score. CAP score denotes the probability of being a bot. 
-    Previous studies have used bot score of 0.5 to determine bots. CAP score of 0.3 is equivalent to the score 0.5 used by researchers in these earlier studies. \cite{deb2019perils} used a threshold of 0.3 after the 
-    introduction of new changes as mentioned in \cite{yang2019arming}.
-    \item Grid search was performed with thresholds of 0.1, 0.2, and 0.3 for humans, 0.3, 0.5, 0.7, and 0.8 for bots and Random Forest, Neural Network
-     and SMOTENN as possible ML algorithms to determine the best parameters in the training and test set
-    \item From Grid search, we determined that 0.5 was the optimal bot threshold, 0.3 the optimal human threshold and Adaboost with SMOTENN preprocessing the optimal ML algorithm. Using this threshold, we selected 513 bots whose CAP score was higher than 0.5  and 
-    27k human accounts whose CAP score was smaller than 0.3 for training and testing our data. We created a training-test split at a ratio of 0.9. We used the remaining 44k values that lied between 0.5 and 0.3 as a test set,
-    which we name "Broader Test set" to see the models performance in thresholds that were not selected. 
-\end{itemize}
-
-We obtained an accuracy of 85\% with AUC of 0.85 in the training set, 87\% accuracy with 
-an AUC of 0.8 in the test set and accuracy of 85\% with an AUC of 0.8 in the broader test set when compared with Botometers prediction. This model detected 10.5\% of the accounts as 
-bots. The accuracy was lesser than in \cite{kudugunta2018deep}. It may be due to the evolution of bots, or because we compared with Botometer instead of manually labeling the training set like in  \cite{kudugunta2018deep}. 
+We selected 95\% of suspended users and an equal amount of random non suspended users, which we conveniently refer to as humans to train a SMOTENN network using 
+the profile features detailed above. It had an AUC of 0.95 in the training set and 0.93 in the test set.
 
 
 \subsection{Cascading and Influence Detection}
@@ -262,8 +245,10 @@ A tweet cascade starts when a Tweet is made. Any retweet or response which invol
 made by Alice, Bob, and Eve will belong in the same cascade. The Twitter API will show Eve and Bob as a direct descendant of Alice without any mention that Eve retweeted Bob's retweet. \par
 
 \cite{du2013scalable} defines influence as the average number of users who get in contact with the content created by a user \textit{u}.
- However, Twitter does not provide the diffusion graph and the number of people reached. \cite{rizoiu2018debatenight} define the influence of a user over a retweet cascade as "the expected number of time the tweet is
- retweeted – direct retweets or descendants in a diffusion scenario – over all possible diffusion scenarios  associated." They define the influence of a user as the sum of the influence of tweets
+ However, Twitter does not provide the diffusion graph and the number of people reached. \cite{rizoiu2018debatenight}
+  define the influence of a user over a retweet cascade as "the expected number of time the tweet is
+ retweeted – direct retweets or descendants in a diffusion scenario – over all possible diffusion scenarios  
+ associated." They define the influence of a user as the sum of the influence of tweets
  authored by a user. We use their algorithm and definition. \cite{rizoiu2018debatenight} uses time and 
  number of followers to estimate a user influence. Using this mechanism, a high influence score can be provided to highly connected users who never start diffusions and 
  to active retweeters with little followership. \cite{rizoiu2018debatenight} tested their algorithm on an artificial social network with 1000 users and found that the influence calculated had a Spearman 
@@ -314,89 +299,82 @@ Then the total influence of a node is the sum of the pairwise influence score m\
 Then we converted the raw influence score to a user wise percentage. A correlation of 0.96 existed between the full dataset and the 1\% sample. We used this method 
  instead of \cite{rizoiu2018debatenight}'s original one due to limitations in computing power.
 
- Influence percentage mean. This way, it measures the role of a user in creating new tweets. More the influence percentage, more tweets in the dataset were created by that user/user group. In 
-a cascade, the original tweet is the parent tweet.
-
 
  \section{Data Analysis}
 \label{sec:analysis}
-\subsection{Data Captured}
-After cascading and re-scraping the missing tweets, we compared the actual size of the cascades with the size we had captured using the Twitter API. This comparison has issues. 
-There is a selection bias in this data as we selected cascades which were longer than 2 Tweets. Additionally, we re-scraped metrics (likes, replies and retweets) from twitter in July 2019, nine months after
- the collection. By this time, addition and removal of tweets will take place. However, we still include this analysis to enable future comparison with other researchers. \par
-
-In our 329606 cascades, we had re-scraped the details of 154603 parent
-tweets. We compared the total retweet and replies we had (when re-scraped) with the total retweets and replies on Twitter. After we added the total tweet and retweet amount in Twitter  
-and compared it with the amount we captured, we found that we had captured 9.64\% of data in each cascade. \par
-
-The biases explained
-above, and the use of many keywords may be possible reasons for this high capture.
 
 \subsection{Exploratory Data Analysis}
-After the removal of irrelevant data, 6.5M Tweets by 1.7M users remained. Bots made 12.6\% of the Tweets. We removed stopwords to compare the words used by bots and humans. 
-We selected words which appear more than 0.03\% times in the dataset (which was 45759 times for humans and 6538 for bots). The dominant words are in 
-\ref{tab:bot-dominant-words} and  \ref{tab:humans-dominant-words}. From Table \ref{tab:bot-dominant-words}, we can see that bots dominate humans in the use of conservative words. 
-Table \ref{tab:humans-dominant-words} shows that humans dominate bots in the use of slang. \par
+Our dataset consisted of 2.94M Tweets by 870k users. After Machine Learning, 6.19\% of these accounts 
+were found to be bots. They made 15.6\% of the Tweets. The mean 
+sentiment of bots was -0.19, slightly more negative than the average non-bot at -0.16. We 
+removed stopwords to compare the words used by bots and humans (used for convenience to refer to users who are not Trollbots). 
+We selected words that appear more than 0.03\% times in the dataset (which was 41386 times for humans and 6148 for 
+bots). The dominant words are in 
+\ref{tab:bot-dominant-words} and \ref{tab:humans-dominant-words}. From Table \ref{tab:bot-dominant-words}, 
+we can see that most of the trollbots seem to be alt-right or republican. Qanon is an alt-right conspiracy theory 
+while kag refers to "Keep America Great". Other bot dominant words are also popular among the republicans.
+Among humans, one incident seems to have stood out. A Florida State University (FSU) student had been 
+arrested for throwing chocolate milk and the word related to it dominate the human side.
 
-\begin{table}
-    \centering
+\begin{table}[h]
     \begin{tabular}{|l|l|}
     \hline
-    \textbf{Word} & \textbf{Percentage Difference} \\ \hline
-    voteredtosaveamerica & 169.715447 \\ \hline
-    patriots & 161.121157 \\ \hline
-    votered & 130.514988 \\ \hline
-    walkaway & 107.832423 \\ \hline
-    follow & 106.300268 \\ \hline
-    red & 99.139168 \\ \hline
-    maga & 95.622477 \\ \hline
-    redwave & 95.294118 \\ \hline
-    qanon & 86.301370 \\ \hline
-    dems & 65.538736 \\ \hline
-    usa & 60.909091 \\ \hline
-    via & 57.861635 \\ \hline
-    god & 56.432247 \\ \hline
-    economy & 51.132075 \\ \hline
-    \end{tabular}
-    \caption{Words used more often by bots}
-    \label{tab:bot-dominant-words}
-\end{table}
-
-\begin{table}
-    \centering
-    \begin{tabular}{|l|l|}
-    \hline
-    \textbf{Word} & \textbf{Percentage Difference} \\ \hline
-    bunch & 58.440047 \\ \hline
-    yall & 52.095130 \\ \hline
-    bc & 45.844156 \\ \hline
-    shot & 45.454545 \\ \hline
-    woman & 43.218954 \\ \hline
-    children & 41.602787 \\ \hline
-    line & 41.316348 \\ \hline
-    school & 41.313559 \\ \hline
-    cruz & 39.701074 \\ \hline
-    points & 39.238095 \\ \hline
-    men & 39.154161 \\ \hline
-    put & 35.545906 \\ \hline
-    stay & 35.414725 \\ \hline
-    ted & 35.111111 \\ \hline
+    \textbf{Word} & \textbf{\begin{tabular}[c]{@{}l@{}}Percentage\\ Difference\end{tabular}} \\ \hline
+    chocolate     & 78.885052                                                                \\ \hline
+    milk          & 76.540881                                                                \\ \hline
+    fsu           & 76.08353                                                                 \\ \hline
+    throwing      & 75.873016                                                                \\ \hline
+    woman         & 59.52                                                                    \\ \hline
+    arrested      & 58.247903                                                                \\ \hline
+    men           & 56.640345                                                                \\ \hline
+    jewish        & 55.259654                                                                \\ \hline
+    nazis         & 49.34877                                                                 \\ \hline
+    name          & 46.192053                                                                \\ \hline
+    put           & 44.897959                                                                \\ \hline
+    away          & 43.264503                                                                \\ \hline
+    something     & 41.046607                                                                \\ \hline
+    angry         & 40.981013                                                                \\ \hline
+    think         & 40.675676                                                                \\ \hline
     \end{tabular}
     \caption{Words used more often by humans}
     \label{tab:humans-dominant-words}
 \end{table}
 
+\begin{table}[h]
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Word}        & \textbf{percentage\_difference} \\ \hline
+    qanon                & 32.315522                       \\ \hline
+    kag                  & 31.95122                        \\ \hline
+    walkaway             & 28.093948                       \\ \hline
+    usa                  & 27.511962                       \\ \hline
+    patriots             & 26.732673                       \\ \hline
+    racism               & 26.315789                       \\ \hline
+    lie                  & 25.85034                        \\ \hline
+    americafirst         & 25.561798                       \\ \hline
+    wwg1wga              & 25.519288                       \\ \hline
+    voteredtosaveamerica & 25.504152                       \\ \hline
+    low                  & 24.262295                       \\ \hline
+    truth                & 24.08377                        \\ \hline
+    borders              & 23.773006                       \\ \hline
+    destroy              & 23.054755                       \\ \hline
+    lying                & 22.685185                       \\ \hline
+\end{tabular}
+\caption{Words used more often by bots}
+\label{tab:bot-dominant-words}
+\end{table}
 
-We did not find any significant difference between the sentiment of humans and bots. Then we analyzed the 329606 cascades in the dataset to calculate human-bot interaction. Out of all interactions, we made the following observations: 
+Then we analyzed the 141436 cascades containing more than ten tweets to calculate human-bot interaction. 
+We made the following observations: 
 
 \begin{itemize}
-    \item Tweets made by bots was retweeted by bots 2.87\% or 120k times.
-    \item Tweets made by bots were retweeted by humans 6.34\% or 265k times. 
-    \item Tweets made by humans were retweeted by bots 9.14\% or 382k times. 
-    \item Tweets made by humans were retweeted by humans 81.64\% or 3.4M times. 
+    \item 1.78\% of all retweets were made from bot Tweets by bots.
+    \item 12.04\% of all retweets were made from bot Tweets by humans.
+    \item 12\% of all retweets were made from humans Tweets by bots.
+    \item 74.18\% of all retweets were made from human Tweets by humans.
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \begin{subfigure}[b]{1\linewidth}
       \includegraphics[width=\linewidth]{images/bots_furtherretweeted.png}
@@ -408,90 +386,76 @@ We did not find any significant difference between the sentiment of humans and b
       \caption{Humans Parents}
       \label{fig:further_retweet_humans}
     \end{subfigure}
-    \caption{Further Retweet}
+    \caption{Retweet cascades for tweets made by humans and bots are grouped by their size and visualized. Here, we see 
+    that bots dominate cascades started by bots in the early retweets. As the size gets bigger, more humans see it. For 
+    human started tweets, their percentage is similar in all sizes}
     \label{fig:further_retweet}
 \end{figure}
 
-Next, we compared the cascades started by bots and humans. The cascades were grouped by their length to visualize the differences accurately. 
-In Figure \ref{fig:further_retweet_bots}, we can see that the percentage of bots was high for smaller cascades started by bots. As the size of Cascade increases, the percentage of bots decreases. 
-We made the opposite observation for humans in Figure \ref{fig:further_retweet_humans}. If a tweet receives few audience, they are most likely the followers. This means that bots are mostly
-followed by bots and humans by humans. Thus, this finding goes in line with those made by earlier research which shows that bots and humans create a follower cluster dominated by their type.
-
-To further analyze this, in Figure \ref{fig:humans_bots_percentage}, we look at the successful tweets and the early retweets. The early audience of a Tweet are the follower of the Original Poster (OP). If a Tweet becomes famous,
-it goes beyond the followers. From the figure, we can see that the number of bots is high in first one percent of the retweets/replies for successful tweets in case of bots and is high for humans in a decreasing amount. This analysis provides further support to the assertion made in the previous paragraph.
-
-\begin{figure}
-    \includegraphics[width=\linewidth]{images/bot_humans_retweet_percentages.png}
-    \caption{At Different Percentage Intervals}
-    \label{fig:humans_bots_percentage}
-\end{figure}
-
-
+Next, we compared the cascades started by bots and humans. Figure \ref{fig:further_retweet} can be zoomed 
+for detail. In Figure \ref{fig:further_retweet_bots} we can see that the percentage of bots was high for smaller cascades 
+started by bots. As the size of the cascade increases, the percentage of bots decreases. 
+We made the opposite observation for humans in Figure \ref{fig:further_retweet_humans}. If a tweet receives 
+few audiences, they are the followers. Bots are mostly
+followed by bots and humans by humans. This finding goes in line with those made by earlier research which
+ shows that bots and humans are mostly followed by their type. \par
 
 \subsection{Retweet Influence Analysis}
 
-The average influence of a human was 4.06, half that of a bot, which was 8.12. This finding is similar to 
-\cite{rizoiu2018debatenight}'s finding who found that bots were 2.5 times more influential than humans. Then influence for each user was converted 
-into a percentage to determine how influential a user was. 
+The average influence of a human was 4.12, while that of a trollbot was 6.34. This is lesser than 
+\cite{rizoiu2018debatenight}'s finding who found that bots were 2.5 times more influential than humans. 
+But they used Botometer to determine bots while we relied mostly on Twitter.
 
-\begin{figure}[h!]
+Figure \ref{fig:humans_bots_percentage} shows the most influential users. 
+
+\par
+
+\begin{figure}[H]
     \includegraphics[width=\linewidth]{images/top_influences.png}
-    \caption{Most influential users}
+    \caption{Most influential users. Users with many followers and users who made many tweets were found to be the most influential ones. Most interesting is user @swtwrwfwrw who made over 500 tweets during this timeframe and was found to be more influential than @DonaldJTrump}
     \label{fig:humans_bots_percentage}
 \end{figure}
 
-Figure \ref{fig:humans_bots_percentage} unsurprisingly shows that the most influential user, who was possibly responsible for the creation of as much as 0.93\%
-of the tweets was the POTUS, @realDonaldTrump.\par
+Then, we measure made by the percentage of users. To find this out, we first calculated the user wise 
+influence of all users in our dataset as a sum of their influence in all their tweets. Then, we used our 
+label bots and not bots, referred conveniently as humans. We calculated the Influence
+ percentage by using the total influence of all users. Figure \ref{fig:top_infuence}, shows that 
+that in both categories top 1\% of the users account for around 70\% of their total influence \par
 
-
-\begin{figure}
-    \centering
-    \captionsetup{justification=centering}
-
-    \begin{subfigure}[b]{0.4\linewidth}
-      \includegraphics[width=\linewidth]{images/top_1per_bots.png}
-      \caption{Bots}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.4\linewidth}
-      \includegraphics[width=\linewidth]{images/top_1per_humans.png}
-      \caption{Humans}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.8\linewidth}
-        \includegraphics[width=\linewidth]{images/top_1per_all.png}
-        \caption{All}
-    \end{subfigure}
-    \caption{Percentage of top users and their influence percentage}
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{images/top_percentages.png}
+    \caption{Percentage of top users and their influence percentage.}
     \label{fig:top_infuence}
 \end{figure}
 
-Then, we find the difference in influence made by the top 1\% of all users, top 1\% of the bots, and top 1\% of the Humans. To find this out, we first calculated the user wise 
-influence of all users in our dataset as a sum of their influence in all their tweets. Then, we used our bot prediction to find bot user and bot influence. We calculated the Influence
- percentage by using the total influence of all users. Figure \ref{fig:top_infuence}, shows that 
-the top 1\% of bots were responsible for 75\% of influence made by bots. Top 1\% of humans were responsible for 65\% of the influence. The top 20\% of bots are responsible for nearly 98\% of the influence. The top 20\% of humans are responsible for 64\% of total influence. \par
-
-1\% of the bots are responsible for 11\% of the total influence. Out of 4.8M data in our cascade, this might imply that
-bots were responsible for the creation of 500k human tweets. However, we cannot make this conclusion without further research. 
-When calculating influence, we could have calculated the influence of a bot or a human in the diffusion graph multiple times. We use the graph in \ref{fig:diff_graph} to illustrate 
+Bots are responsible for 10\% of the total influence, while the top 1\% is responsible for 7\%. 
+Out of 2.94M data in our cascade, this might imply 
+that bots were responsible for the creation of 180k human tweets. However, we cannot make this conclusion 
+without further research. When calculating influence, we could have calculated the influence of a bot or a
+ human in the diffusion graph multiple times. We use the graph in \ref{fig:diff_graph} to illustrate 
 the problem in making this assumption.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \includegraphics[width=\linewidth]{images/diffusion_graph.png}
     \caption{Diffusion Graph}
     \label{fig:diff_graph}
 \end{figure}
 
-In Figure \ref{fig:diff_graph} the influence score of node 1 will be 4, node 2 will be 2, of node 3 will be 1, and of node 4 and node 5 will be 0. If 1 and 2 are bots, 
+In Figure \ref{fig:diff_graph}, the influence score of node 1 will be 4, node 2 will be 2, of node 3 will be 1, and of node 4 and node 5 will be 0. If 1 and 2 are bots, 
 the total bot influence score will be 6. However,1 created 
 2. Although this disparity might cancel out in 2 large groups across a large dataset when taken in percentage, we still refrain from making that conclusion. 
 Further research is needed to make 
 this verification. If we can make the verification, we can measure the impact of bots in terms of monetary value by comparing it with the advertising cost.
 
 \subsection{URL Influence Analysis}
-Before performing URL influence calculation, we resolved short URLs and removed twitter.com links. We kept the URLs which we could not resolve as they were. 
-652,054 unique URLs belonging to 157,192 unique domains were shared in our dataset by 652,054 unique users 1.9 Million times. Ten most popular domains in our dataset with their frequency are
-in Table \ref{tab:Common_urls}. The top 10 domains for humans and bots, apart from t.co are in Table \ref{tab:common_human_bots}.
+Before performing URL influence calculation, we resolved short URLs and removed twitter.com links. We kept the URLs 
+which we could not resolve as they were. 
+217,350 unique URLs belonging to 53,378 unique domains were shared in our dataset by 210,102 unique users 0.6 Million
+times. Ten most popular domains in our dataset with their frequency are
+in Table \ref{tab:Common_urls}. The top 10 domains for humans and bots, apart from t.co are in Table 
+\ref{tab:common_human_bots}.
 
-\begin{table}
+\begin{table}[H]
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -513,7 +477,7 @@ in Table \ref{tab:Common_urls}. The top 10 domains for humans and bots, apart fr
 \end{table}
 
 
-\begin{table}
+\begin{table}[H]
     \centering
     \begin{tabular}{|l|l|}
     \hline
@@ -533,34 +497,18 @@ in Table \ref{tab:Common_urls}. The top 10 domains for humans and bots, apart fr
     \label{tab:common_human_bots}
 \end{table}
 
-A single URL was shared 27.84 times in 1.97 cascades on average.
-Next, we compare the average influence bots had on the URL cascades with the number of bots.
+A single URL was shared 26.48 times in 1.98 cascades on average.
 
-\begin{table}
-    \centering
-    \begin{tabular}{|l|l|l|l|l|}
-    \hline
-    Size & Amt & Influence \% & Average \% & \( \frac{Influence \%}{Average \%} \) \\ \hline
-    0-10 & 98709 & 15.83 & 15.1 & 1.05 \\ \hline
-    10-100 & 15309 & 19.67 & 14.84 & 1.33 \\ \hline
-    100-500 & 1879 & 23.02 & 13.53 & 1.7 \\ \hline
-    500-1k & 209 & 23.24 & 11.02 & 2.11 \\ \hline
-    1k-3k & 122 & 21.53 & 9.23 & 2.33 \\ \hline
-    3k-7k & 25 & 24.49 & 8.82 & 2.78 \\ \hline
-    7k-40k & 5 & 14.92 & 7.77 & 1.92 \\ \hline
-    \end{tabular}
-    \caption{Percentage of Bots and their Influence}
-    \label{tab:percentage_influence}
-\end{table}
-
-In Table \ref{tab:percentage_influence}, the size row denote the size of Cascade, Amount refers to the number of cascades of that size, Influence \% is the percentage of all influence 
-made by bot users at that cascade group, and Average \% is the percentage amount of bots in that cascade group. We can observe that the ratio of influence to size is increasing as the 
-size of cascade increases except for the last value. The difference in the last interval might be due to small sample size. 
-This implies that over successful URL's, the impact of bot is higher.
+We found that the in URL cascades, for URLs that were shared more than ten times, the influ-
+ence percentage of bots was 70\% greater than their size.
 
 \section{Conclusion, Limitations and Further Work}
-In this study, we show that bots have been highly influential and that most of the influence comes from a few top bots. In line with previous research, we have also shown that bots 
-and humans form a cluster around each other and join when a tweet gets successful. This knowledge can help to point out a possible direction in the fight against bots. 
+In this study, we show that bots have been highly influential and that most of the influence comes from a few top 
+bots. In our dataset, 6.19\% of the users were bots. They created 12\% of the Tweets are their average influence was 
+53\% more than that of a human. Overall they accounted for 10\% of the total influence, and the top 1\% were 
+responsible for 7\% of the influence. In line with previous research, we have also shown that bots 
+and humans form a cluster around each other and join when a tweet gets successful. This knowledge can help to point
+ out a possible direction in the fight against bots. 
 
 \begin{itemize}
     \item We performed this study in a limited dataset. It would have been better to perform it in the complete data. However, we did not have access to it. 

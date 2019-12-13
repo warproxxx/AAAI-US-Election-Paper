@@ -7,45 +7,46 @@ Warning--entry type for "botometer_tweet" isn't style-file defined
 --line 569 of file references.bib
 Warning--empty journal in bradshaw2017troops
 Warning--there's a number but no volume in ferrara2015manipulation
-You've used 64 entries,
+Warning--empty year in twitter
+You've used 61 entries,
             2568 wiz_defined-function locations,
-            912 strings with 16862 characters,
-and the built_in function-call counts, 27575 in all, are:
-= -- 2948
-> -- 1224
-< -- 16
-+ -- 430
-- -- 418
-* -- 2195
-:= -- 4428
-add.period$ -- 324
-call.type$ -- 64
-change.case$ -- 463
-chr.to.int$ -- 63
-cite$ -- 66
-duplicate$ -- 1036
-empty$ -- 1878
-format.name$ -- 520
-if$ -- 5688
+            898 strings with 16109 characters,
+and the built_in function-call counts, 25701 in all, are:
+= -- 2754
+> -- 1104
+< -- 15
++ -- 383
+- -- 374
+* -- 2025
+:= -- 4121
+add.period$ -- 306
+call.type$ -- 61
+change.case$ -- 430
+chr.to.int$ -- 60
+cite$ -- 64
+duplicate$ -- 977
+empty$ -- 1773
+format.name$ -- 472
+if$ -- 5310
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 390
-num.names$ -- 192
-pop$ -- 420
+missing$ -- 52
+newline$ -- 369
+num.names$ -- 183
+pop$ -- 396
 preamble$ -- 1
-purify$ -- 528
+purify$ -- 492
 quote$ -- 0
-skip$ -- 881
+skip$ -- 839
 stack$ -- 0
-substring$ -- 1373
-swap$ -- 271
-text.length$ -- 16
+substring$ -- 1270
+swap$ -- 256
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 512
-warning$ -- 2
-while$ -- 221
-width$ -- 66
-write$ -- 883
-(There were 3 warnings)
+type$ -- 488
+warning$ -- 3
+while$ -- 208
+width$ -- 63
+write$ -- 835
+(There were 4 warnings)

@@ -71,16 +71,6 @@ Cresci, S.; Di~Pietro, R.; Petrocchi, M.; Spognardi, A.; and Tesconi, M.
 \newblock Fame for sale: Efficient detection of fake twitter followers.
 \newblock {\em Decision Support Systems} 80:56--71.
 
-\bibitem[\protect\citeauthoryear{Cresci \bgroup et al\mbox.\egroup
-  }{2017}]{cresci2017paradigm}
-Cresci, S.; Di~Pietro, R.; Petrocchi, M.; Spognardi, A.; and Tesconi, M.
-\newblock 2017.
-\newblock The paradigm-shift of social spambots: Evidence, theories, and tools
-  for the arms race.
-\newblock In {\em Proceedings of the 26th international conference on World
-  Wide Web companion},  963--972.
-\newblock International World Wide Web Conferences Steering Committee.
-
 \bibitem[\protect\citeauthoryear{Davis \bgroup et al\mbox.\egroup
   }{2016}]{davis2016botornot}
 Davis, C.~A.; Varol, O.; Ferrara, E.; Flammini, A.; and Menczer, F.
@@ -121,13 +111,6 @@ Ellison, N.~B.; Steinfield, C.; and Lampe, C.
 \newblock The benefits of facebook “friends:” social capital and college
   students’ use of online social network sites.
 \newblock {\em Journal of computer-mediated communication} 12(4):1143--1168.
-
-\bibitem[\protect\citeauthoryear{Ferrara \bgroup et al\mbox.\egroup
-  }{2016}]{ferrara2016rise}
-Ferrara, E.; Varol, O.; Davis, C.; Menczer, F.; and Flammini, A.
-\newblock 2016.
-\newblock The rise of social bots.
-\newblock {\em Communications of the ACM} 59(7):96--104.
 
 \bibitem[\protect\citeauthoryear{Ferrara}{2015}]{ferrara2015manipulation}
 Ferrara, E.
@@ -242,28 +225,12 @@ Howard, P.~N.; Woolley, S.; and Calo, R.
   and administration.
 \newblock {\em Journal of information technology \& politics} 15(2):81--93.
 
-\bibitem[\protect\citeauthoryear{Hutto and Gilbert}{2014}]{hutto2014vader}
-Hutto, C.~J., and Gilbert, E.
-\newblock 2014.
-\newblock Vader: A parsimonious rule-based model for sentiment analysis of
-  social media text.
-\newblock In {\em Eighth international AAAI conference on weblogs and social
-  media}.
-
 \bibitem[\protect\citeauthoryear{Kudugunta and
   Ferrara}{2018}]{kudugunta2018deep}
 Kudugunta, S., and Ferrara, E.
 \newblock 2018.
 \newblock Deep neural networks for bot detection.
 \newblock {\em Information Sciences} 467:312--322.
-
-\bibitem[\protect\citeauthoryear{Lazer \bgroup et al\mbox.\egroup
-  }{2018}]{lazer2018science}
-Lazer, D.~M.; Baum, M.~A.; Benkler, Y.; Berinsky, A.~J.; Greenhill, K.~M.;
-  Menczer, F.; Metzger, M.~J.; Nyhan, B.; Pennycook, G.; Rothschild, D.; et~al.
-\newblock 2018.
-\newblock The science of fake news.
-\newblock {\em Science} 359(6380):1094--1096.
 
 \bibitem[\protect\citeauthoryear{Linderman and
   Adams}{2014}]{linderman2014discovering}
@@ -426,6 +393,10 @@ Thelwall, M.; Buckley, K.; Paltoglou, G.; Cai, D.; and Kappas, A.
 Twiplomacy.
 \newblock 2018.
 \newblock Twiplomacy study 2018.
+
+\bibitem[\protect\citeauthoryear{Twitter}{}]{twitter}
+Twitter.
+\newblock About suspended accounts.
 
 \bibitem[\protect\citeauthoryear{Underwood and
   Pezdek}{1998}]{underwood1998memory}
